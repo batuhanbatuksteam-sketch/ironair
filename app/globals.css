@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════════════════════════
+   IRONAIR tasarım belirteçleri
+
+   Açık mod tam palet olarak :root'ta tanımlıdır. Karanlık mod yalnızca
+   değişen belirteçleri geçersiz kılar — önce sistem tercihi, sonra elle
+   seçilen tema. Hiçbir renk yalnızca bir medya sorgusu içinde tanımlanmaz.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Zeminler — soğuk sanayi grisi, sıcak krem değil */
+  --void: #eceef1;
+  --surface: #ffffff;
+  --surface-sunk: #e3e6ea;
+  --line: #cdd2d9;
+  --line-strong: #a8b0ba;
+
+  /* Metin */
+  --ink: #0c0d0f;
+  --ink-muted: #4a515a;
+  --ink-faint: #666d76;
+
+  /* Marka kırmızısı — açık zeminde koyu ton kontrastı taşır */
+  --red: #c20e14;
+  --red-hover: #9d0b10;
+  --red-text: #a80c11;
+  --on-red: #ffffff;
+  --red-wash: rgba(194, 14, 20, 0.08);
+  --red-line: rgba(194, 14, 20, 0.32);
+
+  /* Hero videosunun içinde yaşadığı boşluk her iki modda da siyahtır */
+  --stage: #000000;
+
+  --radius: 2px;
+  --rule: 1px;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --void: #000000;
+    --surface: #0b0c0e;
+    --surface-sunk: #000000;
+    --line: #24262b;
+    --line-strong: #3a3d44;
+
+    --ink: #f2f4f6;
+    --ink-muted: #969ca6;
+    --ink-faint: #7d838d;
+
+    --red: #e4141b;
+    --red-hover: #ff2a30;
+    --red-text: #ff5a52;
+    --on-red: #ffffff;
+    --red-wash: rgba(228, 20, 27, 0.12);
+    --red-line: rgba(228, 20, 27, 0.42);
+
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --void: #000000;
+  --surface: #0b0c0e;
+  --surface-sunk: #000000;
+  --line: #24262b;
+  --line-strong: #3a3d44;
+
+  --ink: #f2f4f6;
+  --ink-muted: #969ca6;
+  --ink-faint: #7d838d;
+
+  --red: #e4141b;
+  --red-hover: #ff2a30;
+  --red-text: #ff5a52;
+  --on-red: #ffffff;
+  --red-wash: rgba(228, 20, 27, 0.12);
+  --red-line: rgba(228, 20, 27, 0.42);
+
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-void: var(--void);
+  --color-surface: var(--surface);
+  --color-sunk: var(--surface-sunk);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-red: var(--red);
+  --color-red-text: var(--red-text);
+  --color-on-red: var(--on-red);
+  --color-stage: var(--stage);
+
+  --font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+/* ── Temel ───────────────────────────────────────────────────────────────── */
+
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--void);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--red);
+  color: var(--on-red);
+}
+
+:focus-visible {
+  outline: 2px solid var(--red-text);
+  outline-offset: 2px;
+}
+
+/* Ölçülen sayılar hizalansın diye tablo rakamları */
+.tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* ── Tipografik ölçek ────────────────────────────────────────────────────── */
+
+.display {
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 0.92;
+  font-size: clamp(2.75rem, 7.5vw, 6.5rem);
+  text-wrap: balance;
+}
+
+.h1 {
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  line-height: 1.03;
+  font-size: clamp(2rem, 4.2vw, 3.35rem);
+  text-wrap: balance;
+}
+
+.h2 {
+  font-weight: 700;
+  letter-spacing: -0.022em;
+  line-height: 1.1;
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  text-wrap: balance;
+}
+
+.h3 {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  font-size: 1.15rem;
+}
+
+.prose-measure {
+  max-width: 64ch;
+}
+
+/* ── Ölçü çizgisi: bölüm sınırlarını teknik resimdeki gibi işaretler ─────── */
+
+.gauge-rule {
+  position: relative;
+  height: 1px;
+  background: var(--line);
+}
+
+.gauge-rule::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  height: 7px;
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--line) 0 1px,
+    transparent 1px 40px
+  );
+}
+
+.gauge-rule[data-accent="true"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 88px;
+  height: 3px;
+  background: var(--red);
+}
+
+/* ── Kontroller ──────────────────────────────────────────────────────────── */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 46px;
+  padding: 0 1.5rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.btn-primary {
+  background: var(--red);
+  color: var(--on-red);
+  border: var(--rule) solid var(--red);
+}
+
+.btn-primary:hover {
+  background: var(--red-hover);
+  border-color: var(--red-hover);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border: var(--rule) solid var(--line-strong);
+}
+
+.btn-ghost:hover {
+  border-color: var(--red);
+  color: var(--red-text);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* ── Grup kartları ───────────────────────────────────────────────────────── */
+
+/* Her kart kendi vurgu rengini --acc / --acc-light değişkeninden alır.
+   Aydınlık modda koyu ton, karanlık modda parlak ton kullanılır. */
+.grup-kart {
+  --kart-acc: var(--acc-light);
+  background: var(--surface);
+  min-height: 17rem;
+  transition: border-color 220ms ease, background-color 220ms ease;
+}
+
+:root[data-theme="dark"] .grup-kart {
+  --kart-acc: var(--acc);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .grup-kart {
+    --kart-acc: var(--acc);
+  }
+}
+
+.grup-kart:hover {
+  border-color: color-mix(in srgb, var(--kart-acc) 55%, transparent);
+}
+
+.grup-isik {
+  position: absolute;
+  right: -18%;
+  bottom: -32%;
+  width: 78%;
+  aspect-ratio: 1;
+  border-radius: 9999px;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--kart-acc) 34%, transparent) 0%,
+    transparent 68%
+  );
+  opacity: 0.55;
+  transition: opacity 320ms ease, transform 420ms ease;
+  pointer-events: none;
+}
+
+.grup-kart:hover .grup-isik {
+  opacity: 1;
+  transform: scale(1.12);
+}
+
+.grup-kart:hover .grup-ad {
+  color: var(--kart-acc);
+}
+
+.grup-ad {
+  transition: color 200ms ease;
+}
+
+.grup-ok {
+  border-color: var(--line);
+  color: var(--ink-faint);
+  transition: border-color 200ms ease, color 200ms ease, background-color 200ms ease;
+}
+
+.grup-kart:hover .grup-ok {
+  border-color: var(--kart-acc);
+  background: var(--kart-acc);
+  color: #fff;
+}
+
+/* Fan seçim aracının öneri satırları — grup rengini taşır */
+.oneri-satir {
+  --kart-acc: var(--acc-light);
+  transition: border-color 200ms ease, background-color 200ms ease;
+}
+
+:root[data-theme="dark"] .oneri-satir {
+  --kart-acc: var(--acc);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .oneri-satir {
+    --kart-acc: var(--acc);
+  }
+}
+
+.oneri-nokta {
+  background: var(--kart-acc);
+}
+
+.oneri-satir:hover {
+  border-color: var(--kart-acc);
+  background: color-mix(in srgb, var(--kart-acc) 10%, transparent);
+}
+
+
+/* Referans tablosu satırları */
+.ref-satir {
+  transition: background-color 180ms ease;
+}
+
+.ref-satir:hover {
+  background: var(--red-wash);
+}
+
+/* Ürün kartları — görselin arkasında grup rengi */
+.urun-kart {
+  --kart-acc: var(--acc-light);
+  background: var(--surface);
+}
+
+:root[data-theme="dark"] .urun-kart {
+  --kart-acc: var(--acc);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .urun-kart {
+    --kart-acc: var(--acc);
+  }
+}
+
+.urun-kart:hover {
+  border-color: color-mix(in srgb, var(--kart-acc) 55%, transparent);
+}
+
+.urun-kart:hover .urun-ad {
+  color: var(--kart-acc);
+}
+
+.urun-isik {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at 50% 62%,
+    color-mix(in srgb, var(--kart-acc) 26%, transparent) 0%,
+    transparent 62%
+  );
+  opacity: 0.5;
+  transition: opacity 340ms ease;
+  pointer-events: none;
+}
+
+.urun-kart:hover .urun-isik {
+  opacity: 1;
+}
+
+/* Sık sorulanlar açılır başlıkları */
+.sss-ogesi summary::-webkit-details-marker {
+  display: none;
+}
+
+.sss-isaret {
+  color: var(--ink-faint);
+  transition: transform 220ms ease, color 220ms ease;
+}
+
+.sss-ogesi[open] .sss-isaret {
+  transform: rotate(45deg);
+  color: var(--red-text);
+}
+
+.sss-ogesi summary:hover .h3 {
+  color: var(--red-text);
+}
+
+.sss-ogesi .h3 {
+  transition: color 180ms ease;
+}
+
+/* ── Kırmızı imleç ───────────────────────────────────────────────────────── */
+
+/* Sınıf yalnız imleç bileşeni devreye girdiğinde eklenir; JS çalışmazsa veya
+   dokunmatik cihazdaysak sistem imleci olduğu gibi kalır. */
+.ozel-imlec,
+.ozel-imlec a,
+.ozel-imlec button,
+.ozel-imlec label,
+.ozel-imlec select,
+.ozel-imlec summary,
+.ozel-imlec [role="button"] {
+  cursor: none;
+}
+
+/* Metin alanlarında yazma imleci korunur — orada konum bilgisi gerekiyor. */
+.ozel-imlec input,
+.ozel-imlec textarea {
+  cursor: auto;
+}
+
+.imlec-nokta,
+.imlec-halka {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  pointer-events: none;
+  opacity: 0;
+  border-radius: 9999px;
+  will-change: transform;
+}
+
+/* Siyah hero sahnesinde de açık zeminde de okunsun diye parlak kırmızı ton. */
+.imlec-nokta {
+  width: 9px;
+  height: 9px;
+  background: var(--red-text);
+  transition: opacity 180ms ease;
+}
+
+.imlec-halka {
+  width: 34px;
+  height: 34px;
+  border: 1.5px solid var(--red-text);
+  transition: opacity 180ms ease;
+}
+
+/* Çark halkanın içine oturur; dönüşü JS'te kare kare sürülür, bu yüzden
+   burada geçiş tanımlanmaz — CSS araya girerse atalet hissi bozulur. */
+.imlec-fan {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+.imlec-fan path {
+  fill: none;
+  stroke: var(--red-text);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  opacity: 0.8;
+}
+
+/* ── Hareket kısıtı ──────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

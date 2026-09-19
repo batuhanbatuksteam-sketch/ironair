@@ -1,0 +1,3088 @@
+{
+ "categories": [
+  {
+   "slug": "radyal-fanlar",
+   "name": "Radyal Fanlar",
+   "seriesCount": 21
+  },
+  {
+   "slug": "kanal-fanlari",
+   "name": "Kanal Fanları",
+   "seriesCount": 16
+  },
+  {
+   "slug": "aksiyel-fanlar",
+   "name": "Aksiyel Fanlar",
+   "seriesCount": 11
+  },
+  {
+   "slug": "cati-fanlari",
+   "name": "Çatı Fanları",
+   "seriesCount": 4
+  }
+ ],
+ "seriesCount": 52,
+ "modelCount": 454,
+ "series": [
+  {
+   "id": 699,
+   "slug": "irt-a",
+   "code": "IRT-A",
+   "name": "Alüminyum kanatlı kare aksiyal fan",
+   "summary": "Duvar tipi veya kanal tipi olarak sunulan, genel havalandırma uygulamalarına yönelik evrensel aksiyel fan.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-a/studyo.webp",
+   "gallery": [],
+   "modelCount": 16,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3500.0,
+     "max": 100000.0,
+     "display": "3.500 – 100.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 250.0,
+     "max": 1800.0,
+     "display": "250 – 1.800 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 30000.0,
+     "display": "370 – 30.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 400.0,
+     "max": 1120.0,
+     "display": "400 – 1.120 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 15.0,
+     "max": 148.0,
+     "display": "15 – 148 kg"
+    }
+   ]
+  },
+  {
+   "id": 697,
+   "slug": "irt-akm",
+   "code": "IRT-AKM",
+   "name": "Dış motorlu kare aksiyal fan",
+   "summary": "Yapı bölmelerine doğrudan montaj için tasarlanmış yüksek performanslı duvar tipi aksiyel fan.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-akm/studyo.webp",
+   "gallery": [],
+   "modelCount": 10,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 2000.0,
+     "max": 8000.0,
+     "display": "2.000 – 8.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 100.0,
+     "max": 171.0,
+     "display": "100 – 171 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 250.0,
+     "max": 550.0,
+     "display": "250 – 550 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1470.0,
+     "display": "1.400 – 1.470 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 307.0,
+     "max": 612.0,
+     "display": "307 – 612 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 7.0,
+     "max": 15.6,
+     "display": "7 – 15,6 kg"
+    }
+   ]
+  },
+  {
+   "id": 676,
+   "slug": "irt-al",
+   "code": "IRT-AL",
+   "name": "Alüminyum gövdeli radyal fan",
+   "summary": "Alüminyumdan yapılmış veya alüminyum bileşenler içeren seri – hafif ve korozyona dayanıklı radyal versiyon.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-al/studyo.webp",
+   "gallery": [],
+   "modelCount": 9,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 750.0,
+     "max": 5000.0,
+     "display": "750 – 5.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 300.0,
+     "max": 1500.0,
+     "display": "300 – 1.500 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 250.0,
+     "max": 3000.0,
+     "display": "250 – 3.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2800.0,
+     "max": 2800.0,
+     "display": "2.800 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 120.0,
+     "max": 228.0,
+     "display": "120 – 228 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 9.0,
+     "max": 33.0,
+     "display": "9 – 33 kg"
+    }
+   ]
+  },
+  {
+   "id": 677,
+   "slug": "irt-al-k",
+   "code": "IRT-AL-K",
+   "name": "Alüminyum gövdeli radyal fan",
+   "summary": "Alüminyumdan yapılmış kompakt versiyon – hafif yapının avantajlarını dar alanlardaki kolay montajla birleştirir.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-al-k/studyo.webp",
+   "gallery": [],
+   "modelCount": 2,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3000.0,
+     "max": 4000.0,
+     "display": "3.000 – 4.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 3000.0,
+     "max": 3800.0,
+     "display": "3.000 – 3.800 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 1500.0,
+     "max": 3000.0,
+     "display": "1.500 – 3.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2800.0,
+     "max": 2800.0,
+     "display": "2.800 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 120.0,
+     "max": 140.0,
+     "display": "120 – 140 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 32.0,
+     "max": 48.0,
+     "display": "32 – 48 kg"
+    }
+   ]
+  },
+  {
+   "id": 694,
+   "slug": "irt-ba",
+   "code": "IRT-BA",
+   "name": "Yuvarlak kanal aksiyal fan",
+   "summary": "Basit genel havalandırma sistemleri için tasarlanmış yuvarlak gövdeli kanal tipi aksiyel fan.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-ba/studyo.webp",
+   "gallery": [],
+   "modelCount": 4,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 765.0,
+     "max": 3100.0,
+     "display": "765 – 3.100 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 225.0,
+     "max": 300.0,
+     "display": "225 – 300 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 80.0,
+     "max": 200.0,
+     "display": "80 – 200 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2300.0,
+     "max": 2400.0,
+     "display": "2.300 – 2.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 197.0,
+     "max": 347.0,
+     "display": "197 – 347 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 2.7,
+     "max": 5.6,
+     "display": "2,7 – 5,6 kg"
+    }
+   ]
+  },
+  {
+   "id": 708,
+   "slug": "irt-bf",
+   "code": "IRT-BF",
+   "name": "Çatı radyal fan",
+   "summary": "Yatay hava tahliyeli radyal çatı fanı, düz çatılar için tasarlanmıştır.",
+   "categorySlug": "cati-fanlari",
+   "image": "/katalog/irt-bf/studyo.webp",
+   "gallery": [],
+   "modelCount": 2,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1650.0,
+     "max": 1960.0,
+     "display": "1.650 – 1.960 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 800.0,
+     "max": 900.0,
+     "display": "800 – 900 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 400.0,
+     "max": 400.0,
+     "display": "400 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 2750.0,
+     "display": "1.400 – 2.750 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 315.0,
+     "max": 315.0,
+     "display": "315 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 11.5,
+     "max": 11.5,
+     "display": "11,5 kg"
+    }
+   ]
+  },
+  {
+   "id": 675,
+   "slug": "irt-ces",
+   "code": "IRT-CES",
+   "name": "Çift emişli radyal fan",
+   "summary": "OCES'e benzer radyal seri – belirli yapısal ve malzeme çözümleri gerektiren ortamlarda çalışmak üzere tasarlanmıştır.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-ces/studyo.webp",
+   "gallery": [],
+   "modelCount": 1,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1300.0,
+     "max": 1300.0,
+     "display": "1.300 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 300.0,
+     "max": 300.0,
+     "display": "300 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 217.0,
+     "max": 217.0,
+     "display": "217 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1460.0,
+     "max": 1460.0,
+     "display": "1.460 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 188.0,
+     "max": 188.0,
+     "display": "188 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 9.0,
+     "max": 9.0,
+     "display": "9 kg"
+    }
+   ]
+  },
+  {
+   "id": 707,
+   "slug": "irt-dka",
+   "code": "IRT-DKA",
+   "name": "Kare aksiyal fan",
+   "summary": "Binalardan etkili hava tahliyesi sağlayan, dikey montaj için tasarlanmış duvar tipi aksiyel fan.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-dka/studyo.webp",
+   "gallery": [],
+   "modelCount": 4,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 765.0,
+     "max": 3100.0,
+     "display": "765 – 3.100 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 250.0,
+     "max": 325.0,
+     "display": "250 – 325 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 80.0,
+     "max": 200.0,
+     "display": "80 – 200 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2300.0,
+     "max": 2400.0,
+     "display": "2.300 – 2.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 197.0,
+     "max": 347.0,
+     "display": "197 – 347 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 2.7,
+     "max": 5.6,
+     "display": "2,7 – 5,6 kg"
+    }
+   ]
+  },
+  {
+   "id": 690,
+   "slug": "irt-dkf",
+   "code": "IRT-DKF",
+   "name": "Dikdörtgen kanal fanı",
+   "summary": "Dikdörtgen havalandırma kanalı sistemlerinin içine monte edilmek üzere tasarlanmış dikdörtgen kanal tipi santrifüj fanlar.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-dkf/studyo.webp",
+   "gallery": [],
+   "modelCount": 11,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 500.0,
+     "max": 9800.0,
+     "display": "500 – 9.800 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 400.0,
+     "max": 1150.0,
+     "display": "400 – 1.150 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 90.0,
+     "max": 1500.0,
+     "display": "90 – 1.500 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1350.0,
+     "max": 2675.0,
+     "display": "1.350 – 2.675 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 8.0,
+     "max": 90.0,
+     "display": "8 – 90 kg"
+    }
+   ]
+  },
+  {
+   "id": 678,
+   "slug": "irt-dmk",
+   "code": "IRT-DMK",
+   "name": "Alüminyum gövdeli salyangoz fan",
+   "summary": "Özel montaj veya yapısal gereksinimler için tasarlanmış radyal model – genellikle ek uyarlanabilir seçenekler sunar.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-dmk/studyo.webp",
+   "gallery": [],
+   "modelCount": 3,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 290.0,
+     "max": 600.0,
+     "display": "290 – 600 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 301.0,
+     "max": 501.0,
+     "display": "301 – 501 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 85.0,
+     "max": 220.0,
+     "display": "85 – 220 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2400.0,
+     "max": 2650.0,
+     "display": "2.400 – 2.650 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 120.0,
+     "max": 160.0,
+     "display": "120 – 160 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 2.64,
+     "max": 4.5,
+     "display": "2,64 – 4,5 kg"
+    }
+   ]
+  },
+  {
+   "id": 691,
+   "slug": "irt-fgdk",
+   "code": "IRT-FGDK",
+   "name": "Harici rotor motorlu kanal fan",
+   "summary": "Büyük havalandırma sistemleri için tasarlanmış dikdörtgen gövdeli kanal tipi radyal fan.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-fgdk/studyo.webp",
+   "gallery": [],
+   "modelCount": 6,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1600.0,
+     "max": 9800.0,
+     "display": "1.600 – 9.800 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 300.0,
+     "max": 675.0,
+     "display": "300 – 675 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 250.0,
+     "max": 1500.0,
+     "display": "250 – 1.500 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1470.0,
+     "display": "1.400 – 1.470 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 35.0,
+     "max": 91.0,
+     "display": "35 – 91 kg"
+    }
+   ]
+  },
+  {
+   "id": 665,
+   "slug": "irt-fgm63",
+   "code": "IRT-FGM63",
+   "name": "Radyal fan",
+   "summary": "Daha küçük çapa sahip çark (63 numara) ile kompakt radyal fan, genellikle yerel hava üfleme veya sirkülasyon için kullanılır.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-fgm63/studyo.webp",
+   "gallery": [],
+   "modelCount": 18,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1820.0,
+     "max": 42600.0,
+     "display": "1.820 – 42.600 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 4350.0,
+     "max": 9099.0,
+     "display": "4.350 – 9.099 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 45000.0,
+     "display": "370 – 45.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1365.0,
+     "max": 2930.0,
+     "display": "1.365 – 2.930 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 150.0,
+     "max": 600.0,
+     "display": "150 – 600 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 37.0,
+     "max": 710.0,
+     "display": "37 – 710 kg"
+    }
+   ]
+  },
+  {
+   "id": 666,
+   "slug": "irt-fgm80",
+   "code": "IRT-FGM80",
+   "name": "Radyal fan",
+   "summary": "FGM 63'e benzer bir versiyon, ancak daha büyük bir çarkla – daha yüksek hava akışı ve biraz daha fazla basınç sağlar.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-fgm80/studyo.webp",
+   "gallery": [],
+   "modelCount": 15,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1900.0,
+     "max": 42000.0,
+     "display": "1.900 – 42.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 4100.0,
+     "max": 7149.0,
+     "display": "4.100 – 7.149 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 250.0,
+     "max": 22000.0,
+     "display": "250 – 22.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1365.0,
+     "max": 2930.0,
+     "display": "1.365 – 2.930 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 220.0,
+     "max": 680.0,
+     "display": "220 – 680 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 55.0,
+     "max": 520.0,
+     "display": "55 – 520 kg"
+    }
+   ]
+  },
+  {
+   "id": 710,
+   "slug": "irt-ftr",
+   "code": "IRT-FTR",
+   "name": "Çatı radyal fan",
+   "summary": "Radyal hava akışı profili gerektiren çatı uygulamaları için tasarlanmış radyal çatı fanı.",
+   "categorySlug": "cati-fanlari",
+   "image": "/katalog/irt-ftr/studyo.webp",
+   "gallery": [],
+   "modelCount": 7,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 2000.0,
+     "max": 9800.0,
+     "display": "2.000 – 9.800 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 300.0,
+     "max": 700.0,
+     "display": "300 – 700 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 120.0,
+     "max": 3000.0,
+     "display": "120 – 3.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 250.0,
+     "max": 560.0,
+     "display": "250 – 560 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 28.0,
+     "max": 74.0,
+     "display": "28 – 74 kg"
+    }
+   ]
+  },
+  {
+   "id": 668,
+   "slug": "irt-gb",
+   "code": "IRT-GB",
+   "name": "Kayış tahrikli radyal fan",
+   "summary": "Zorlu koşullar için tasarlanmış, ek güçlendirme ve montaj seçeneklerine sahip geliştirilmiş kompakt versiyon.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-gb/studyo.webp",
+   "gallery": [],
+   "modelCount": 19,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3500.0,
+     "max": 50000.0,
+     "display": "3.500 – 50.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 650.0,
+     "max": 3300.0,
+     "display": "650 – 3.300 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 550.0,
+     "max": 22000.0,
+     "display": "550 – 22.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1450.0,
+     "max": 1450.0,
+     "display": "1.450 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 320.0,
+     "max": 800.0,
+     "display": "320 – 800 mm"
+    }
+   ]
+  },
+  {
+   "id": 659,
+   "slug": "irt-gr",
+   "code": "IRT-GR",
+   "name": "Orta basınçlı radyal fan",
+   "summary": "Standart serilere göre daha yüksek basınç gerektiren uygulamalar için tasarlanmış radyal fan. Genellikle sistem direncinin yüksek olduğu yerlerde kullanılır.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-gr/studyo.webp",
+   "gallery": [],
+   "modelCount": 10,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 4000.0,
+     "max": 23000.0,
+     "display": "4.000 – 23.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 1400.0,
+     "max": 3150.0,
+     "display": "1.400 – 3.150 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 750.0,
+     "max": 18500.0,
+     "display": "750 – 18.500 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2800.0,
+     "max": 2800.0,
+     "display": "2.800 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 300.0,
+     "max": 500.0,
+     "display": "300 – 500 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 91.0,
+     "max": 375.0,
+     "display": "91 – 375 kg"
+    }
+   ]
+  },
+  {
+   "id": 658,
+   "slug": "irt-gs",
+   "code": "IRT-GS",
+   "name": "Düşük basınçlı radyal fan",
+   "summary": "Temiz veya hafif toz yüklü havanın taşınması ile havalandırma ve egzoz sistemleri için tasarlanmış endüstriyel radyal fan serisi.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-gs/studyo.webp",
+   "gallery": [],
+   "modelCount": 19,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3500.0,
+     "max": 50000.0,
+     "display": "3.500 – 50.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 650.0,
+     "max": 3300.0,
+     "display": "650 – 3.300 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 550.0,
+     "max": 22000.0,
+     "display": "550 – 22.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1450.0,
+     "max": 1450.0,
+     "display": "1.450 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 300.0,
+     "max": 900.0,
+     "display": "300 – 900 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 78.0,
+     "max": 410.0,
+     "display": "78 – 410 kg"
+    }
+   ]
+  },
+  {
+   "id": 682,
+   "slug": "irt-h",
+   "code": "IRT-H",
+   "name": "Bölmeli radyal fan",
+   "summary": "İleri eğimli kanatlara sahip rotorlu kanal tipi radyal fan serisi, standart havalandırma sistemleri için.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-h/studyo.webp",
+   "gallery": [],
+   "modelCount": 12,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 2250.0,
+     "max": 18800.0,
+     "display": "2.250 – 18.800 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 1050.0,
+     "max": 2000.0,
+     "display": "1.050 – 2.000 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 750.0,
+     "max": 7500.0,
+     "display": "750 – 7.500 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 69.0,
+     "max": 193.0,
+     "display": "69 – 193 kg"
+    }
+   ]
+  },
+  {
+   "id": 684,
+   "slug": "irt-h-eko",
+   "code": "IRT-H EKO",
+   "name": "Bölmeli radyal fan (eko)",
+   "summary": "H serisinin enerji tasarruflu versiyonu – benzer (hazneli) tasarım, ancak verimlilik ve daha düşük enerji tüketimi için optimize edilmiştir.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-h-eko/studyo.webp",
+   "gallery": [],
+   "modelCount": 8,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 2250.0,
+     "max": 9800.0,
+     "display": "2.250 – 9.800 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 1200.0,
+     "max": 1375.0,
+     "display": "1.200 – 1.375 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 750.0,
+     "max": 3000.0,
+     "display": "750 – 3.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 69.0,
+     "max": 123.0,
+     "display": "69 – 123 kg"
+    }
+   ]
+  },
+  {
+   "id": 683,
+   "slug": "irt-hs",
+   "code": "IRT-HS",
+   "name": "Bölmeli radyal fan",
+   "summary": "Kanal tipi varyant, geri eğimli kanatlı rotor ile tasarlanmış, daha iyi verim ve daha düşük gürültü seviyesi için.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-hs/studyo.webp",
+   "gallery": [],
+   "modelCount": 16,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3000.0,
+     "max": 37000.0,
+     "display": "3.000 – 37.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 1200.0,
+     "max": 1975.0,
+     "display": "1.200 – 1.975 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 1100.0,
+     "max": 18500.0,
+     "display": "1.100 – 18.500 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 2800.0,
+     "display": "1.400 – 2.800 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 44.0,
+     "max": 345.0,
+     "display": "44 – 345 kg"
+    }
+   ]
+  },
+  {
+   "id": 688,
+   "slug": "irt-igk",
+   "code": "IRT-IGK",
+   "name": "Plug fan ısı geri kazanımlı fan",
+   "summary": "Kompakt yapılı kanal tipi radyal fan, özellikle alanın sınırlı olduğu yerlerde havalandırma kanallarına montaj için tasarlanmıştır.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-igk/studyo.webp",
+   "gallery": [],
+   "modelCount": 5,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1800.0,
+     "max": 6000.0,
+     "display": "1.800 – 6.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 400.0,
+     "max": 800.0,
+     "display": "400 – 800 Pa"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1380.0,
+     "max": 2670.0,
+     "display": "1.380 – 2.670 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 80.0,
+     "max": 185.0,
+     "display": "80 – 185 kg"
+    }
+   ]
+  },
+  {
+   "id": 662,
+   "slug": "irt-k",
+   "code": "IRT-K",
+   "name": "Yüksek basınçlı radyal fan",
+   "summary": "Performanstan ödün vermeden yer tasarrufunun önemli olduğu uygulamalar için tasarlanmış kompakt radyal seri.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-k/studyo.webp",
+   "gallery": [],
+   "modelCount": 10,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 350.0,
+     "max": 1700.0,
+     "display": "350 – 1.700 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 3000.0,
+     "max": 11999.0,
+     "display": "3.000 – 11.999 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 11000.0,
+     "display": "370 – 11.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2800.0,
+     "max": 2800.0,
+     "display": "2.800 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 130.0,
+     "max": 160.0,
+     "display": "130 – 160 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 20.5,
+     "max": 160.0,
+     "display": "20,5 – 160 kg"
+    }
+   ]
+  },
+  {
+   "id": 663,
+   "slug": "irt-ka",
+   "code": "IRT-KA",
+   "name": "Düşük basınçlı radyal fan",
+   "summary": "Daha zorlu kurulumlar için ek montaj veya tasarım seçeneklerine sahip IRT-K'nin kompakt versiyonu.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-ka/studyo.webp",
+   "gallery": [],
+   "modelCount": 10,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1500.0,
+     "max": 15000.0,
+     "display": "1.500 – 15.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 550.0,
+     "max": 2000.0,
+     "display": "550 – 2.000 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 11000.0,
+     "display": "370 – 11.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 150.0,
+     "max": 400.0,
+     "display": "150 – 400 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 27.5,
+     "max": 150.0,
+     "display": "27,5 – 150 kg"
+    }
+   ]
+  },
+  {
+   "id": 670,
+   "slug": "irt-kef",
+   "code": "IRT-KEF",
+   "name": "Mutfak egzoz fanı",
+   "summary": "Ekstra filtrasyon veya verimlilik seçeneklerine sahip kompakt varyant – daha temiz hava akışı gerektiren uygulamalar için tasarlanmıştır.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-kef/studyo.webp",
+   "gallery": [],
+   "modelCount": 5,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1600.0,
+     "max": 7000.0,
+     "display": "1.600 – 7.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 275.0,
+     "max": 1100.0,
+     "display": "275 – 1.100 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 250.0,
+     "max": 1100.0,
+     "display": "250 – 1.100 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1454.0,
+     "max": 1478.0,
+     "display": "1.454 – 1.478 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 315.0,
+     "max": 500.0,
+     "display": "315 – 500 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 32.0,
+     "max": 62.0,
+     "display": "32 – 62 kg"
+    }
+   ]
+  },
+  {
+   "id": 687,
+   "slug": "irt-kkf",
+   "code": "IRT-KKF",
+   "name": "Bölmeli radyal fan",
+   "summary": "Kanal tipi radyal fan, genellikle kayış tahrikli seçenekle veya özel tasarım olarak sunulur.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-kkf/studyo.webp",
+   "gallery": [],
+   "modelCount": 5,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 2600.0,
+     "max": 12000.0,
+     "display": "2.600 – 12.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 350.0,
+     "max": 1020.0,
+     "display": "350 – 1.020 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 380.0,
+     "max": 2190.0,
+     "display": "380 – 2.190 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1340.0,
+     "max": 1400.0,
+     "display": "1.340 – 1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 350.0,
+     "max": 560.0,
+     "display": "350 – 560 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 30.0,
+     "max": 65.0,
+     "display": "30 – 65 kg"
+    }
+   ]
+  },
+  {
+   "id": 702,
+   "slug": "irt-ko-a",
+   "code": "IRT-KO-A",
+   "name": "Alüminyum rotorlu aksiyal fan",
+   "summary": "Endüstriyel havalandırma için tasarlanmış yüksek performanslı kanal tipi aksiyel fan.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-ko-a/studyo.webp",
+   "gallery": [],
+   "modelCount": 16,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3500.0,
+     "max": 100000.0,
+     "display": "3.500 – 100.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 250.0,
+     "max": 1800.0,
+     "display": "250 – 1.800 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 30000.0,
+     "display": "370 – 30.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 400.0,
+     "max": 1120.0,
+     "display": "400 – 1.120 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 28.0,
+     "max": 158.0,
+     "display": "28 – 158 kg"
+    }
+   ]
+  },
+  {
+   "id": 703,
+   "slug": "irt-ko-af3",
+   "code": "IRT-KO-AF3",
+   "name": "Aksiyel Duman Egzoz Fanı",
+   "summary": "Aksiyel Duman Egzoz Fanı F300 motorlu.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-ko-af3/studyo.webp",
+   "gallery": [],
+   "modelCount": 16,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3500.0,
+     "max": 100000.0,
+     "display": "3.500 – 100.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 250.0,
+     "max": 1800.0,
+     "display": "250 – 1.800 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 550.0,
+     "max": 30000.0,
+     "display": "550 – 30.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 400.0,
+     "max": 1120.0,
+     "display": "400 – 1.120 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 28.0,
+     "max": 252.0,
+     "display": "28 – 252 kg"
+    }
+   ]
+  },
+  {
+   "id": 704,
+   "slug": "irt-ko-af4",
+   "code": "IRT-KO-AF4",
+   "name": "Aksiyel Duman Egzoz Fanı",
+   "summary": "Aksiyel Duman Egzoz Fanı F400 motorlu.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-ko-af4/studyo.webp",
+   "gallery": [],
+   "modelCount": 16,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3500.0,
+     "max": 100000.0,
+     "display": "3.500 – 100.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 250.0,
+     "max": 1800.0,
+     "display": "250 – 1.800 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 550.0,
+     "max": 30000.0,
+     "display": "550 – 30.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 400.0,
+     "max": 1120.0,
+     "display": "400 – 1.120 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 28.0,
+     "max": 252.0,
+     "display": "28 – 252 kg"
+    }
+   ]
+  },
+  {
+   "id": 709,
+   "slug": "irt-ko-c",
+   "code": "IRT-KO-C",
+   "name": "Çatı aksiyal fan",
+   "summary": "Yatay hava tahliyeli çatı tipi aksiyel fan, düz çatılara montaj için tasarlanmıştır.",
+   "categorySlug": "cati-fanlari",
+   "image": "/katalog/irt-ko-c/studyo.webp",
+   "gallery": [],
+   "modelCount": 16,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3500.0,
+     "max": 100000.0,
+     "display": "3.500 – 100.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 250.0,
+     "max": 1800.0,
+     "display": "250 – 1.800 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 30000.0,
+     "display": "370 – 30.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 400.0,
+     "max": 1120.0,
+     "display": "400 – 1.120 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 28.0,
+     "max": 245.0,
+     "display": "28 – 245 kg"
+    }
+   ]
+  },
+  {
+   "id": 705,
+   "slug": "irt-ko-h",
+   "code": "IRT-KO-H",
+   "name": "Bölmeli aksiyal fan",
+   "summary": "Zorlu endüstriyel koşullarda çalışmak üzere tasarlanmış güçlendirilmiş kanal tipi aksiyel fan.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-ko-h/studyo.webp",
+   "gallery": [],
+   "modelCount": 16,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3500.0,
+     "max": 100000.0,
+     "display": "3.500 – 100.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 250.0,
+     "max": 1800.0,
+     "display": "250 – 1.800 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 30000.0,
+     "display": "370 – 30.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 400.0,
+     "max": 1120.0,
+     "display": "400 – 1.120 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 28.0,
+     "max": 252.0,
+     "display": "28 – 252 kg"
+    }
+   ]
+  },
+  {
+   "id": 695,
+   "slug": "irt-ksm-kst",
+   "code": "IRT-KSM-KST",
+   "name": "Kare aksiyal fan",
+   "summary": "Orta ve yüksek hava debili standart havalandırma sistemleri için duvara monte aksiyel fan serisi.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-ksm-kst/studyo.webp",
+   "gallery": [],
+   "modelCount": 10,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 2000.0,
+     "max": 8000.0,
+     "display": "2.000 – 8.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 100.0,
+     "max": 250.0,
+     "display": "100 – 250 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 90.0,
+     "max": 235.0,
+     "display": "90 – 235 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1460.0,
+     "display": "1.400 – 1.460 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 307.0,
+     "max": 612.0,
+     "display": "307 – 612 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 8.0,
+     "max": 15.6,
+     "display": "8 – 15,6 kg"
+    }
+   ]
+  },
+  {
+   "id": 660,
+   "slug": "irt-m",
+   "code": "IRT-M",
+   "name": "Düşük basınçlı radyal fan",
+   "summary": "Montaj kolaylığı ve sağlamlık göz önünde bulundurularak tasarlanmış radyal seri – sürekli çalışma güvenilirliğinin öncelik olduğu yerlerde sıklıkla tercih edilir.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-m/studyo.webp",
+   "gallery": [],
+   "modelCount": 10,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 2000.0,
+     "max": 16000.0,
+     "display": "2.000 – 16.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 500.0,
+     "max": 1900.0,
+     "display": "500 – 1.900 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 11000.0,
+     "display": "370 – 11.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 150.0,
+     "max": 400.0,
+     "display": "150 – 400 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 27.5,
+     "max": 150.0,
+     "display": "27,5 – 150 kg"
+    }
+   ]
+  },
+  {
+   "id": 681,
+   "slug": "irt-mf",
+   "code": "IRT-MF",
+   "name": "Mutfak egzoz fanı",
+   "summary": "Öncelikle mutfaklarda atık hava tahliyesi için tasarlanmış kanal tipi radyal fan serisi.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-mf/studyo.webp",
+   "gallery": [],
+   "modelCount": 16,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1650.0,
+     "max": 50000.0,
+     "display": "1.650 – 50.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 800.0,
+     "max": 3100.0,
+     "display": "800 – 3.100 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 250.0,
+     "max": 22000.0,
+     "display": "250 – 22.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 57.0,
+     "max": 270.0,
+     "display": "57 – 270 kg"
+    }
+   ]
+  },
+  {
+   "id": 679,
+   "slug": "irt-mks",
+   "code": "IRT-MKS",
+   "name": "Sac gövdeli salyangoz fan",
+   "summary": "İşletme kararlılığı ve bakım kolaylığına odaklanan radyal seri – sık servis erişimi gerektiren uygulamalar için tasarlanmıştır.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-mks/studyo.webp",
+   "gallery": [],
+   "modelCount": 3,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 275.0,
+     "max": 540.0,
+     "display": "275 – 540 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 360.0,
+     "max": 501.0,
+     "display": "360 – 501 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 85.0,
+     "max": 220.0,
+     "display": "85 – 220 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2200.0,
+     "max": 2450.0,
+     "display": "2.200 – 2.450 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 95.0,
+     "max": 125.0,
+     "display": "95 – 125 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 2.35,
+     "max": 4.0,
+     "display": "2,35 – 4 kg"
+    }
+   ]
+  },
+  {
+   "id": 672,
+   "slug": "irt-obr200",
+   "code": "IRT-OBR200",
+   "name": "Tek emişli radyal fan",
+   "summary": "200 numarası ile işaretlenmiş radyal model, daha küçük bir boyut sınıfını gösterir – hassas ve kompakt uygulamalar için tasarlanmıştır.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-obr200/studyo.webp",
+   "gallery": [],
+   "modelCount": 6,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 850.0,
+     "max": 1800.0,
+     "display": "850 – 1.800 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 376.0,
+     "max": 751.0,
+     "display": "376 – 751 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 140.0,
+     "max": 450.0,
+     "display": "140 – 450 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1450.0,
+     "max": 2950.0,
+     "display": "1.450 – 2.950 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 150.0,
+     "max": 150.0,
+     "display": "150 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 9.0,
+     "max": 9.0,
+     "display": "9 kg"
+    }
+   ]
+  },
+  {
+   "id": 673,
+   "slug": "irt-obr260",
+   "code": "IRT-OBR260",
+   "name": "Tek emişli radyal fan",
+   "summary": "200 modeline kıyasla daha büyük çarka sahip versiyon – kompakt yapısını korurken daha yüksek hava akışı sağlar.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-obr260/studyo.webp",
+   "gallery": [],
+   "modelCount": 6,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1450.0,
+     "max": 2700.0,
+     "display": "1.450 – 2.700 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 375.0,
+     "max": 751.0,
+     "display": "375 – 751 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 250.0,
+     "max": 750.0,
+     "display": "250 – 750 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1380.0,
+     "max": 2820.0,
+     "display": "1.380 – 2.820 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 197.0,
+     "max": 197.0,
+     "display": "197 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 9.5,
+     "max": 12.8,
+     "display": "9,5 – 12,8 kg"
+    }
+   ]
+  },
+  {
+   "id": 674,
+   "slug": "irt-oces",
+   "code": "IRT-OCES",
+   "name": "Çift emişli radyal fan",
+   "summary": "Belirli proses uygulamaları için tasarlanmış radyal varyant – belirli gereksinimlerin olduğu ortamlarda performans ve dayanıklılığa odaklanır.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-oces/studyo.webp",
+   "gallery": [],
+   "modelCount": 1,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 2200.0,
+     "max": 2200.0,
+     "display": "2.200 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 390.0,
+     "max": 390.0,
+     "display": "390 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 400.0,
+     "max": 400.0,
+     "display": "400 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1250.0,
+     "max": 1250.0,
+     "display": "1.250 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 190.0,
+     "max": 190.0,
+     "display": "190 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 10.3,
+     "max": 10.3,
+     "display": "10,3 kg"
+    }
+   ]
+  },
+  {
+   "id": 680,
+   "slug": "irt-pef-h",
+   "code": "IRT-PEF-H",
+   "name": "Mutfak egzoz fanı",
+   "summary": "Yüksek nemli veya yoğun tozlu mekânlardan hava çekimine yönelik kanal tip radyal fan",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-pef-h/studyo.webp",
+   "gallery": [],
+   "modelCount": 6,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3890.0,
+     "max": 25000.0,
+     "display": "3.890 – 25.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 1000.0,
+     "max": 1500.0,
+     "display": "1.000 – 1.500 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 1500.0,
+     "max": 15000.0,
+     "display": "1.500 – 15.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1450.0,
+     "max": 1450.0,
+     "display": "1.450 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 250.0,
+     "max": 600.0,
+     "display": "250 – 600 kg"
+    }
+   ]
+  },
+  {
+   "id": 685,
+   "slug": "irt-pf",
+   "code": "IRT-PF",
+   "name": "Mutfak egzoz fanı",
+   "summary": "Genel endüstriyel ve ticari uygulamalar için tasarlanmış kanal tipi radyal fan.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-pf/studyo.webp",
+   "gallery": [],
+   "modelCount": 15,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3500.0,
+     "max": 50000.0,
+     "display": "3.500 – 50.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 1100.0,
+     "max": 3100.0,
+     "display": "1.100 – 3.100 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 22000.0,
+     "display": "370 – 22.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 400.0,
+     "max": 900.0,
+     "display": "400 – 900 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 45.0,
+     "max": 250.0,
+     "display": "45 – 250 kg"
+    }
+   ]
+  },
+  {
+   "id": 686,
+   "slug": "irt-py",
+   "code": "IRT-PY",
+   "name": "Mutfak egzoz fanı",
+   "summary": "Göreceli olarak yüksek hava akışının gerekli olduğu sistemler için tasarlanmış kanal tipi radyal fan serisi.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-py/studyo.webp",
+   "gallery": [],
+   "modelCount": 4,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 3300.0,
+     "max": 9800.0,
+     "display": "3.300 – 9.800 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 500.0,
+     "max": 800.0,
+     "display": "500 – 800 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 550.0,
+     "max": 1500.0,
+     "display": "550 – 1.500 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 280.0,
+     "max": 450.0,
+     "display": "280 – 450 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 45.0,
+     "max": 140.0,
+     "display": "45 – 140 kg"
+    }
+   ]
+  },
+  {
+   "id": 661,
+   "slug": "irt-r",
+   "code": "IRT-R",
+   "name": "Orta basınçlı radyal fan",
+   "summary": "Değişken yükler ve sık başlat/durdur döngüleri için optimize edilmiş radyal versiyon.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-r/studyo.webp",
+   "gallery": [],
+   "modelCount": 10,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 950.0,
+     "max": 6000.0,
+     "display": "950 – 6.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 1625.0,
+     "max": 9999.0,
+     "display": "1.625 – 9.999 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 370.0,
+     "max": 11000.0,
+     "display": "370 – 11.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2800.0,
+     "max": 2800.0,
+     "display": "2.800 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 100.0,
+     "max": 220.0,
+     "display": "100 – 220 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 24.5,
+     "max": 130.0,
+     "display": "24,5 – 130 kg"
+    }
+   ]
+  },
+  {
+   "id": 711,
+   "slug": "irt-rf",
+   "code": "IRT-RF",
+   "name": "Çatı radyal fan",
+   "summary": "Radyal çatı fanı, çatı kurulumları için bir diğer seçenek olup, radyal tasarımı ile güçlü hava akışı sağlar.",
+   "categorySlug": "cati-fanlari",
+   "image": "/katalog/irt-rf/studyo.webp",
+   "gallery": [],
+   "modelCount": 7,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1150.0,
+     "max": 9800.0,
+     "display": "1.150 – 9.800 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 300.0,
+     "max": 900.0,
+     "display": "300 – 900 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 160.0,
+     "max": 1750.0,
+     "display": "160 – 1.750 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1400.0,
+     "display": "1.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 250.0,
+     "max": 560.0,
+     "display": "250 – 560 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 8.0,
+     "max": 48.0,
+     "display": "8 – 48 kg"
+    }
+   ]
+  },
+  {
+   "id": 706,
+   "slug": "irt-ska",
+   "code": "IRT-SKA",
+   "name": "Sac gövdeli yuvarlak aksiyal fan",
+   "summary": "Ticari tesislerde genel havalandırma için koruyucu ızgaralı duvara monte aksiyel fan.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-ska/studyo.webp",
+   "gallery": [],
+   "modelCount": 4,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 765.0,
+     "max": 3100.0,
+     "display": "765 – 3.100 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 250.0,
+     "max": 325.0,
+     "display": "250 – 325 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 80.0,
+     "max": 200.0,
+     "display": "80 – 200 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2300.0,
+     "max": 2400.0,
+     "display": "2.300 – 2.400 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 197.0,
+     "max": 347.0,
+     "display": "197 – 347 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 2.0,
+     "max": 4.6,
+     "display": "2 – 4,6 kg"
+    }
+   ]
+  },
+  {
+   "id": 696,
+   "slug": "irt-sm-st",
+   "code": "IRT-SM-ST",
+   "name": "Kare aksiyal fan",
+   "summary": "Düşük ve orta hava akışlı sistemlerde çalışmak üzere tasarlanmış kompakt duvara monte aksiyel fanlar.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-sm-st/studyo.webp",
+   "gallery": [],
+   "modelCount": 10,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 2000.0,
+     "max": 8000.0,
+     "display": "2.000 – 8.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 100.0,
+     "max": 250.0,
+     "display": "100 – 250 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 90.0,
+     "max": 235.0,
+     "display": "90 – 235 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1400.0,
+     "max": 1460.0,
+     "display": "1.400 – 1.460 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 325.0,
+     "max": 610.0,
+     "display": "325 – 610 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 7.2,
+     "max": 14.6,
+     "display": "7,2 – 14,6 kg"
+    }
+   ]
+  },
+  {
+   "id": 671,
+   "slug": "irt-t",
+   "code": "IRT-T",
+   "name": "Toz toplama fanı",
+   "summary": "Dayanıklılık ve sadelik düşünülerek tasarlanmış radyal seri – genellikle klasik endüstriyel tesislerde kullanılır.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-t/studyo.webp",
+   "gallery": [],
+   "modelCount": 3,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1000.0,
+     "max": 2200.0,
+     "display": "1.000 – 2.200 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 2000.0,
+     "max": 4500.0,
+     "display": "2.000 – 4.500 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 750.0,
+     "max": 3000.0,
+     "display": "750 – 3.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2800.0,
+     "max": 2800.0,
+     "display": "2.800 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 200.0,
+     "max": 250.0,
+     "display": "200 – 250 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 105.0,
+     "max": 118.0,
+     "display": "105 – 118 kg"
+    }
+   ]
+  },
+  {
+   "id": 664,
+   "slug": "irt-tr",
+   "code": "IRT-TR",
+   "name": "Taşıma fanı",
+   "summary": "Basma ve taşıma sistemlerine montaj için tasarlanmış radyal seri – uzun kanal hatlarına sahip kurulumlar için idealdir.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-tr/studyo.webp",
+   "gallery": [],
+   "modelCount": 8,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1900.0,
+     "max": 8000.0,
+     "display": "1.900 – 8.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 4000.0,
+     "max": 8499.0,
+     "display": "4.000 – 8.499 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 2200.0,
+     "max": 18500.0,
+     "display": "2.200 – 18.500 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2800.0,
+     "max": 2800.0,
+     "display": "2.800 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 140.0,
+     "max": 220.0,
+     "display": "140 – 220 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 45.0,
+     "max": 150.0,
+     "display": "45 – 150 kg"
+    }
+   ]
+  },
+  {
+   "id": 692,
+   "slug": "irt-ufu",
+   "code": "IRT-UFU",
+   "name": "Dikdörtgen kanal fanı",
+   "summary": "Düşük basınç kaybı ile büyük miktarda hava taşımak için tasarlanmış kanal tipi aksiyel fan.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-ufu/studyo.webp",
+   "gallery": [],
+   "modelCount": 3,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1500.0,
+     "max": 4000.0,
+     "display": "1.500 – 4.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 500.0,
+     "max": 600.0,
+     "display": "500 – 600 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 130.0,
+     "max": 430.0,
+     "display": "130 – 430 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1380.0,
+     "max": 2700.0,
+     "display": "1.380 – 2.700 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 45.0,
+     "max": 95.0,
+     "display": "45 – 95 kg"
+    }
+   ]
+  },
+  {
+   "id": 701,
+   "slug": "irt-ujet-a",
+   "code": "IRT-UJET-A",
+   "name": "Jet akış duman tahliye fanı",
+   "summary": "Duman tahliyesi ve sıcak hava uzaklaştırma sistemleri için aksiyel fan. Yüksek sıcaklıklarda çalışmaya uygundur.",
+   "categorySlug": "aksiyel-fanlar",
+   "image": "/katalog/irt-ujet-a/studyo.webp",
+   "gallery": [],
+   "modelCount": 5,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 4640.0,
+     "max": 17900.0,
+     "display": "4.640 – 17.900 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 80.0,
+     "max": 220.0,
+     "display": "80 – 220 Pa"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1500.0,
+     "max": 1500.0,
+     "display": "1.500 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 315.0,
+     "max": 500.0,
+     "display": "315 – 500 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 92.0,
+     "max": 136.0,
+     "display": "92 – 136 kg"
+    }
+   ]
+  },
+  {
+   "id": 719,
+   "slug": "irt-ujet-r",
+   "code": "IRT-UJET-R",
+   "name": "Jet‑stream smoke‑extraction fan",
+   "summary": "Radial Jet fan for smoke extraction and hot air removal systems. Adapted for operation at high temperatures. Performance curve is a derived equivalent for software compatibility. Jet Fan performance is based on thrust (N), not static pressure (Pa). F300 or F400 options are available.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-ujet-r/studyo.webp",
+   "gallery": [],
+   "modelCount": 2,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 5760.0,
+     "max": 7009.0,
+     "display": "5.760 – 7.009 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 120.0,
+     "max": 150.0,
+     "display": "120 – 150 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 1200.0,
+     "max": 2200.0,
+     "display": "1.200 – 2.200 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1500.0,
+     "max": 1500.0,
+     "display": "1.500 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 120.0,
+     "max": 120.0,
+     "display": "120 mm"
+    }
+   ]
+  },
+  {
+   "id": 693,
+   "slug": "irt-usvu",
+   "code": "IRT-USVU",
+   "name": "Sığınak için kanal fanı",
+   "summary": "Yüksek akustik konfor gerektiren havalandırma sistemleri için tasarlanmış düşük gürültülü kanal tipi radyal fan.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-usvu/studyo.webp",
+   "gallery": [],
+   "modelCount": 3,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 1500.0,
+     "max": 4000.0,
+     "display": "1.500 – 4.000 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 500.0,
+     "max": 600.0,
+     "display": "500 – 600 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 210.0,
+     "max": 430.0,
+     "display": "210 – 430 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 1380.0,
+     "max": 2700.0,
+     "display": "1.380 – 2.700 rpm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 45.0,
+     "max": 95.0,
+     "display": "45 – 95 kg"
+    }
+   ]
+  },
+  {
+   "id": 689,
+   "slug": "irt-uvx",
+   "code": "IRT-UVX",
+   "name": "Kanal radyal fan",
+   "summary": "Kanallı havalandırma sistemleri için tasarlanmış kompakt kanal tipi yuvarlak radyal fan serisi.",
+   "categorySlug": "kanal-fanlari",
+   "image": "/katalog/irt-uvx/studyo.webp",
+   "gallery": [],
+   "modelCount": 7,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 275.0,
+     "max": 1890.0,
+     "display": "275 – 1.890 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 250.0,
+     "max": 640.0,
+     "display": "250 – 640 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 60.0,
+     "max": 245.0,
+     "display": "60 – 245 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2325.0,
+     "max": 2960.0,
+     "display": "2.325 – 2.960 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 100.0,
+     "max": 315.0,
+     "display": "100 – 315 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 2.7,
+     "max": 7.0,
+     "display": "2,7 – 7 kg"
+    }
+   ]
+  },
+  {
+   "id": 667,
+   "slug": "irt-y",
+   "code": "IRT-Y",
+   "name": "Yüksek basınçlı radyal fan",
+   "summary": "Çok yönlülük düşünülerek tasarlanmış radyal seri – genellikle çeşitli kurulum türleri için evrensel bir çözüm olarak kullanılır.",
+   "categorySlug": "radyal-fanlar",
+   "image": "/katalog/irt-y/studyo.webp",
+   "gallery": [],
+   "modelCount": 8,
+   "ranges": [
+    {
+     "field": "debi",
+     "label": "Debi",
+     "unit": "m³/h",
+     "min": 6500.0,
+     "max": 37500.0,
+     "display": "6.500 – 37.500 m³/h"
+    },
+    {
+     "field": "basinc",
+     "label": "Statik basınç",
+     "unit": "Pa",
+     "min": 7499.0,
+     "max": 11999.0,
+     "display": "7.499 – 11.999 Pa"
+    },
+    {
+     "field": "guc",
+     "label": "Nominal güç",
+     "unit": "W",
+     "min": 7500.0,
+     "max": 45000.0,
+     "display": "7.500 – 45.000 W"
+    },
+    {
+     "field": "devir",
+     "label": "Devir",
+     "unit": "rpm",
+     "min": 2800.0,
+     "max": 2800.0,
+     "display": "2.800 rpm"
+    },
+    {
+     "field": "cap",
+     "label": "Çap",
+     "unit": "mm",
+     "min": 300.0,
+     "max": 475.0,
+     "display": "300 – 475 mm"
+    },
+    {
+     "field": "agirlik",
+     "label": "Ağırlık",
+     "unit": "kg",
+     "min": 110.0,
+     "max": 600.0,
+     "display": "110 – 600 kg"
+    }
+   ]
+  }
+ ]
+}

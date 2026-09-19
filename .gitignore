@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.env*.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+tools/.cache
+
+# Sitede kullanılmayan görseller — diskte duruyor, depoya girmiyor.
+# Katalog ürün başına tek görsel (studyo.webp) kullanıyor; galeri kareleri ve
+# eski üretilmiş görseller hiçbir yerden referans edilmiyor.
+public/katalog/*/[0-9].webp
+public/generated
