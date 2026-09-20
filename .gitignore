@@ -12,3 +12,5 @@ tools/.cache
 # eski üretilmiş görseller hiçbir yerden referans edilmiyor.
 public/katalog/*/[0-9].webp
 public/generated
+.vercel
+.env*

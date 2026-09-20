@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { belgeler } from "@/data/site";
-import PageHeader from "../components/PageHeader";
+import PageHeader from "../../components/PageHeader";
 
 export const metadata: Metadata = {
   title: "Belgeler ve standartlar",

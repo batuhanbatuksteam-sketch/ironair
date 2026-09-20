@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import GeneralQuoteForm from "../components/GeneralQuoteForm";
+import GeneralQuoteForm from "../../components/GeneralQuoteForm";
 
 export const metadata: Metadata = {
   title: "Teklif iste",

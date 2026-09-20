@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { COMPANY } from "@/data/company";
+import { teklifOlustur } from "@/lib/teklif-deposu";
 
 /**
  * Teklif talebi uç noktası.
@@ -43,7 +44,7 @@ function metinKur(g: Govde) {
   return satirlar.join("\n");
 }
 
-async function epostaGonder(konu: string, metin: string) {
+async function epostaGonder(konu: string, metin: string, musteriEpostasi: string) {
   const key = process.env.RESEND_API_KEY;
   const alici = process.env.TEKLIF_ALICI_EPOSTA ?? COMPANY.email;
   if (!key) {
@@ -55,8 +56,11 @@ async function epostaGonder(konu: string, metin: string) {
     method: "POST",
     headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
     body: JSON.stringify({
-      from: process.env.TEKLIF_GONDEREN_EPOSTA ?? "IRONAIR <teklif@ironair.com.tr>",
+      from: process.env.TEKLIF_GONDEREN_EPOSTA ?? "IRONAIR <teklif@mail.ironair.com.tr>",
       to: [alici],
+      // Gönderen adres teklif@... olduğu için, yanıt tuşu doğrudan talebi
+      // bırakan müşteriye gitsin — aksi halde yanıt kendimize dönüyor.
+      reply_to: musteriEpostasi,
       subject: konu,
       text: metin,
     }),
@@ -89,7 +93,33 @@ export async function POST(request: Request) {
   const metin = metinKur({ ...govde, ad, telefon, eposta });
   const konu = `Teklif: ${govde.urun?.ad ?? "ürün"} — ${ad}`;
 
-  await epostaGonder(konu, metin);
+  const { gonderildi } = await epostaGonder(konu, metin, eposta);
+
+  /* Kalıcı kayıt: e-posta bildirimdir, asıl kaynak bu. Panel bunun üstünde
+     çalışıyor. Depo hatası talebi düşürmesin — müşteri tarafı yine de
+     başarıyla kapanmalı, kayıt günlüğe yazılır. */
+  const secimler = (govde.secimler ?? []).filter(
+    (s): s is Secim => !!s && typeof s.group === "string" && typeof s.value === "string"
+  );
+  try {
+    await teklifOlustur({
+      musteri: {
+        ad,
+        firma: (govde.firma ?? "").trim() || undefined,
+        telefon,
+        eposta,
+        not: (govde.not ?? "").trim() || undefined,
+      },
+      urunSlug: govde.urun?.slug,
+      urunKodu: govde.urun?.kod,
+      urunAdi: govde.urun?.ad,
+      modelAdi: secimler.find((s) => s.group === "Model")?.value,
+      secimler,
+      epostaGonderildi: gonderildi,
+    });
+  } catch (hata) {
+    console.error("[teklif] kayıt oluşturulamadı", hata);
+  }
 
   // Ziyaretçinin aynı talebi WhatsApp'tan da yollayabilmesi için hazır bağlantı.
   const whatsappUrl = `https://wa.me/${COMPANY.whatsapp}?text=${encodeURIComponent(metin)}`;

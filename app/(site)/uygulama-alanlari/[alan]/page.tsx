@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { uygulamalar, uygulamaBySlug } from "@/data/site";
 import { categoryBySlug } from "@/data/categories";
 import { productsByCategory } from "@/data/products";
-import ProductCard from "../../components/ProductCard";
+import ProductCard from "../../../components/ProductCard";
 
 type Params = { params: Promise<{ alan: string }> };
 

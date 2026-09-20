@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, categoryBySlug } from "@/data/categories";
 import { productsByCategory } from "@/data/products";
-import ProductCard from "../../components/ProductCard";
+import ProductCard from "../../../components/ProductCard";
 
 type Params = { params: Promise<{ kategori: string }> };
 

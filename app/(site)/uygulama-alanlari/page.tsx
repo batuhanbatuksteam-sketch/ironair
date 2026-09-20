@@ -4,7 +4,7 @@ import Image from "next/image";
 import { uygulamalar } from "@/data/site";
 import { categoryBySlug } from "@/data/categories";
 import { productsByCategory } from "@/data/products";
-import PageHeader from "../components/PageHeader";
+import PageHeader from "../../components/PageHeader";
 
 export const metadata: Metadata = {
   title: "Uygulama alanları",

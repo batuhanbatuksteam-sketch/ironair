@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import FanSelector from "../components/FanSelector";
-import PageHeader from "../components/PageHeader";
+import FanSelector from "../../components/FanSelector";
+import PageHeader from "../../components/PageHeader";
 
 export const metadata: Metadata = {
   title: "Fan seçim aracı",

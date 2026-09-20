@@ -5,9 +5,9 @@ import { categoryBySlug } from "@/data/categories";
 import { seriDetay } from "@/data/katalog";
 import { productBySlug, products, productsByCategory } from "@/data/products";
 import { uygulamalarByCategory } from "@/data/site";
-import Configurator from "../../../components/Configurator";
-import ProductCard from "../../../components/ProductCard";
-import ProductGallery from "../../../components/ProductGallery";
+import Configurator from "../../../../components/Configurator";
+import ProductCard from "../../../../components/ProductCard";
+import ProductGallery from "../../../../components/ProductGallery";
 
 type Params = { params: Promise<{ kategori: string; urun: string }> };
 

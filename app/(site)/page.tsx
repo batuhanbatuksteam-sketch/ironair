@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import ScrollHero from "./components/ScrollHero";
-import CategoryIndex from "./components/CategoryIndex";
+import ScrollHero from "../components/ScrollHero";
+import CategoryIndex from "../components/CategoryIndex";
 import { modelCount, products, productsByCategory } from "@/data/products";
 import { categories, categoryBySlug } from "@/data/categories";
 import { nedenler, referanslar, sss, surec, uygulamalar } from "@/data/site";

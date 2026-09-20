@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { categories } from "@/data/categories";
 import { modelCount, products, productsByCategory } from "@/data/products";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../../components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Ürünler",
