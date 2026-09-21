@@ -4,6 +4,7 @@ import type { Teklif } from "@/data/teklif-tipi";
 import { COMPANY } from "@/data/company";
 import DurumSecici from "./DurumSecici";
 import NotFormu from "./NotFormu";
+import YanitKutusu from "./YanitKutusu";
 import { tamZaman, gecenSure } from "./zaman";
 import type { DetayVerisi } from "./tipler";
 
@@ -101,6 +102,31 @@ export default function TeklifDetay({
           varsayılan mail uygulamasında aç
         </a>
       </p>
+
+      <YanitKutusu
+        id={teklif.id}
+        konuTaslagi={konu}
+        metinTaslagi={govde}
+        alici={musteri.eposta}
+      />
+
+      {/* Panelden gönderilmiş yanıtlar */}
+      {(teklif.yanitlar?.length ?? 0) > 0 && (
+        <section className="mt-6">
+          <h3 className="text-xs font-semibold tracking-wide text-ink-faint uppercase">
+            Gönderilen yanıtlar
+          </h3>
+          <ul className="mt-2 space-y-2">
+            {teklif.yanitlar!.map((y) => (
+              <li key={y.zaman} className="rounded-[2px] border-l-2 border-red-line bg-surface px-3 py-2">
+                <p className="tabular text-[0.7rem] text-ink-faint">{tamZaman(y.zaman)}</p>
+                <p className="mt-0.5 text-sm font-semibold">{y.konu}</p>
+                <p className="mt-1 whitespace-pre-line text-sm text-ink-muted">{y.metin}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <dl className="mt-4 grid gap-x-8 gap-y-2 text-sm sm:grid-cols-2">
         <div className="flex items-baseline justify-between gap-3 border-b py-2">

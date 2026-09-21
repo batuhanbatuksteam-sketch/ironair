@@ -35,6 +35,13 @@ export type Not = {
   metin: string;
 };
 
+/** Panelden gönderilmiş yanıt — yazışmanın kaydı burada tutulur. */
+export type Yanit = {
+  zaman: string;
+  konu: string;
+  metin: string;
+};
+
 export type Teklif = {
   /** Zaman damgalı, sözlük sırasına göre sıralanabilir kimlik. */
   id: string;
@@ -60,6 +67,9 @@ export type Teklif = {
 
   /** Ekip içi notlar — müşteri görmez. */
   notlar: Not[];
+
+  /** Panelden müşteriye gönderilen yanıtlar. */
+  yanitlar?: Yanit[];
 
   /** Bildirim e-postası gitti mi. */
   epostaGonderildi: boolean;

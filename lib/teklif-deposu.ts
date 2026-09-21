@@ -1,5 +1,5 @@
 import { put, list, get } from "@vercel/blob";
-import type { Teklif, Durum, Not } from "@/data/teklif-tipi";
+import type { Teklif, Durum, Not, Yanit } from "@/data/teklif-tipi";
 
 /**
  * Teklif kayıtlarının deposu — Vercel Blob üstünde.
@@ -93,4 +93,15 @@ export async function notEkle(id: string, metin: string): Promise<Teklif | null>
   if (!teklif) return null;
   const not: Not = { zaman: new Date().toISOString(), metin };
   return yaz({ ...teklif, notlar: [...teklif.notlar, not] });
+}
+
+/** Gönderilen yanıtı kaydeder ve talebi "yanıtlandı" durumuna alır. */
+export async function yanitKaydet(id: string, yanit: Yanit): Promise<Teklif | null> {
+  const teklif = await teklifGetir(id);
+  if (!teklif) return null;
+  return yaz({
+    ...teklif,
+    durum: "yanitlandi",
+    yanitlar: [...(teklif.yanitlar ?? []), yanit],
+  });
 }
