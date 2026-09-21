@@ -38,12 +38,19 @@ export default function TeklifDetay({
   const konu = `IRONAIR Teklif — ${detay.urun?.ad ?? teklif.urunAdi ?? "ürün"}${
     teklif.modelAdi ? ` (${teklif.modelAdi})` : ""
   }`;
+  const govde = yanitTaslagi(teklif, detay);
+  /* Gmail'in yazma ekranı. `mailto:` yalnız masaüstünde tanımlı bir mail
+     uygulaması varsa çalışıyor; şirket Workspace kullandığı için asıl mail
+     istemcisi tarayıcıdaki Gmail — bağlantı doğrudan oraya gidiyor. */
+  const gmail =
+    "https://mail.google.com/mail/?view=cm&fs=1" +
+    `&to=${encodeURIComponent(musteri.eposta)}` +
+    `&su=${encodeURIComponent(konu)}` +
+    `&body=${encodeURIComponent(govde)}`;
   const mailto = `mailto:${musteri.eposta}?subject=${encodeURIComponent(
     konu
-  )}&body=${encodeURIComponent(yanitTaslagi(teklif, detay))}`;
-  const whatsapp = `https://wa.me/${sadeNumara(musteri.telefon)}?text=${encodeURIComponent(
-    yanitTaslagi(teklif, detay)
-  )}`;
+  )}&body=${encodeURIComponent(govde)}`;
+  const whatsapp = `https://wa.me/${sadeNumara(musteri.telefon)}?text=${encodeURIComponent(govde)}`;
 
   return (
     <article className="mx-auto max-w-[900px] px-6 py-7 sm:px-8">
@@ -79,12 +86,21 @@ export default function TeklifDetay({
           WhatsApp
         </a>
         <a
-          href={mailto}
+          href={gmail}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center justify-center rounded-[2px] border px-4 py-2.5 text-sm font-medium transition-colors hover:border-red-line hover:text-red-text"
         >
-          Yanıt yaz
+          Gmail'de yanıtla
         </a>
       </div>
+
+      {/* Masaüstünde tanımlı bir mail uygulaması olanlar için yedek yol */}
+      <p className="mt-2 text-right text-xs text-ink-faint">
+        <a href={mailto} className="underline-offset-4 hover:text-red-text hover:underline">
+          varsayılan mail uygulamasında aç
+        </a>
+      </p>
 
       <dl className="mt-4 grid gap-x-8 gap-y-2 text-sm sm:grid-cols-2">
         <div className="flex items-baseline justify-between gap-3 border-b py-2">
