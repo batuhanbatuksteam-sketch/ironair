@@ -62,14 +62,14 @@ const KANALLAR: Kanal[] = [
     ad: "Orta kanal — 10 – 30 m, menfezli",
     basinc: [400, 900],
     not: "Aksiyel bu dirençte debisini kaybeder",
-    gruplar: ["kanal-fanlari", "radyal-fanlar"],
+    gruplar: ["kanal-fanlari", "hucreli-fanlar", "radyal-fanlar"],
   },
   {
     id: "uzun",
     ad: "Uzun kanal + filtre",
     basinc: [900, 2000],
     not: "Filtre direnci zamanla artar",
-    gruplar: ["radyal-fanlar", "kanal-fanlari"],
+    gruplar: ["radyal-fanlar", "hucreli-fanlar"],
   },
   {
     id: "tasima",
@@ -83,7 +83,6 @@ const KANALLAR: Kanal[] = [
 const ORTAMLAR = [
   { id: "normal", ad: "Normal", carpan: 1, gruplar: [] as string[] },
   { id: "nemli", ad: "Nemli veya korozif", carpan: 1, gruplar: [] as string[] },
-  { id: "patlayici", ad: "Patlayıcı gaz / toz (ATEX)", carpan: 1, gruplar: [] },
   { id: "sicak", ad: "Sıcak gaz (+120 °C üstü)", carpan: 1.15, gruplar: ["radyal-fanlar"] },
 ];
 
@@ -289,12 +288,6 @@ export default function FanSelector() {
                     </li>
                   ))}
             </ul>
-            {sonuc.ortam.id === "patlayici" && (
-              <p className="mt-3 text-xs text-ink-faint">
-                ATEX sertifikalı versiyonlar proje bazında üretilir — teklif notuna
-                bölge sınıfını (Zone 1/2/21/22) yazın.
-              </p>
-            )}
           </div>
 
           <Link href="/teklif" className="btn btn-primary mt-7 w-full">

@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { DURUMLAR, type Durum, type Teklif } from "@/data/teklif-tipi";
 import { seriDetay } from "@/data/katalog";
 import { productBySlug } from "@/data/products";
+import { guncelModelAdi, guncelSlug } from "@/data/eski-kodlar";
 import { teklifleriListele } from "@/lib/teklif-deposu";
 import { oturumAcikMi } from "@/lib/panel-oturum";
 import PanelBasligi from "./PanelBasligi";
@@ -20,12 +21,13 @@ export const dynamic = "force-dynamic";
  * de güncel tabloyu göstersin diye her seferinde buradan okunuyor.
  */
 function detayTopla(teklif: Teklif): DetayVerisi {
-  const urun = teklif.urunSlug ? productBySlug(teklif.urunSlug) : undefined;
-  const seri = teklif.urunSlug ? seriDetay(teklif.urunSlug) : undefined;
+  // Eski talepler IRT- kodlarıyla kayıtlı; güncel kataloğa çevrilerek okunur.
+  const slug = teklif.urunSlug ? guncelSlug(teklif.urunSlug) : undefined;
+  const urun = slug ? productBySlug(slug) : undefined;
+  const seri = slug ? seriDetay(slug) : undefined;
+  const modelAdi = teklif.modelAdi ? guncelModelAdi(teklif.modelAdi) : undefined;
   const model =
-    teklif.modelAdi && seri?.models
-      ? seri.models.find((m) => m.name === teklif.modelAdi)
-      : undefined;
+    modelAdi && seri?.models ? seri.models.find((m) => m.name === modelAdi) : undefined;
   return {
     urun: urun
       ? {

@@ -227,7 +227,7 @@ export default function ScrollHero({ productCount }: { productCount: number }) {
               Ağır sanayi için fan üretiyoruz
             </h1>
             <p className="prose-measure mt-6 text-[1.05rem] text-white/72">
-              Aksiyelden radyale, ATEX&apos;ten ısı geri kazanımına {productCount} ürün
+              Aksiyelden radyale, çatı fanından ısı geri kazanımına {productCount} ürün
               ailesi. Ölçünüzü seçin, teklifinizi aynı gün alın.
             </p>
 

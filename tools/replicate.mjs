@@ -6,7 +6,8 @@ const ENV = path.join(process.cwd(), ".env.local");
 if (fs.existsSync(ENV)) {
   for (const line of fs.readFileSync(ENV, "utf8").split("\n")) {
     const m = line.match(/^([A-Z0-9_]+)=(.*)$/);
-    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].trim();
+    // `vercel env pull` değerleri tırnak içinde yazıyor; tırnak jetona karışırsa 401 döner.
+    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].trim().replace(/^"(.*)"$/, "$1");
   }
 }
 const TOKEN = process.env.REPLICATE_API_TOKEN;

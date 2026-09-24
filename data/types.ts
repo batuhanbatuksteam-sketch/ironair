@@ -55,7 +55,7 @@ export type SpecRange = {
  */
 export type Product = {
   slug: string;
-  /** IRONAIR seri kodu — IRT-GB. */
+  /** IRONAIR seri kodu — IRR-GB. */
   code: string;
   name: string;
   summary: string;

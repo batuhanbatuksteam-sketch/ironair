@@ -41,6 +41,16 @@ def cevir(kaynak: pathlib.Path, hedef: pathlib.Path) -> bool:
     return True
 
 
+
+def _normalize():
+    """Kod ve slug kuralları tek yerde: katalog-normalize.py."""
+    import importlib.util, pathlib
+    yol = pathlib.Path(__file__).with_name("katalog-normalize.py")
+    spec = importlib.util.spec_from_file_location("katalog_normalize", yol)
+    modul = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(modul)
+    return modul
+
 def main():
     ham = json.loads(HAM.read_text(encoding="utf-8"))
     # media/ altındaki yollar catalog.json'da "assets/catalog/media/..." önekli
@@ -48,7 +58,7 @@ def main():
 
     sayac = kaynak_bayt = hedef_bayt = 0
     for s in ham["series"]:
-        slug = slugla("IRT-" + s["name"].split("-", 1)[1] if s["name"].startswith("UVS-") else s["name"])
+        slug = slugla(_normalize().IRONAIR_KOD(s["name"]))
         isler = []
         if s.get("image"):
             isler.append((yol(s["image"]), HEDEF / slug / "ana.webp"))

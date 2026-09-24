@@ -2,62 +2,62 @@
  "note": "IRONAIR kodu → kaynak katalog karşılığı. Yalnızca veri doğrulaması için tutulur; site bileşenleri bu dosyayı import etmez.",
  "source": "CloudAir datahub — uvents.com.tr/data/catalog.json",
  "map": {
-  "IRT-A": {
+  "IRR-A": {
    "sourceCode": "UVS-A",
    "models": {
-    "IRT-A 1000/A": "UVS-A 1000/A",
-    "IRT-A 1000/B": "UVS-A 1000/B",
-    "IRT-A 1000/C": "UVS-A 1000/C",
-    "IRT-A 1120/A": "UVS-A 1120/A",
-    "IRT-A 1120/B": "UVS-A 1120/B",
-    "IRT-A 400": "UVS-A 400",
-    "IRT-A 450": "UVS-A 450",
-    "IRT-A 500": "UVS-A 500",
-    "IRT-A 560": "UVS-A 560",
-    "IRT-A 630": "UVS-A 630",
-    "IRT-A 710": "UVS-A 710",
-    "IRT-A 800/A": "UVS-A 800/A",
-    "IRT-A 800/B": "UVS-A 800/B",
-    "IRT-A 900/A": "UVS-A 900/A",
-    "IRT-A 900/B": "UVS-A 900/B",
-    "IRT-A 900/C": "UVS-A 900/C"
+    "IRR-A 1000/A": "UVS-A 1000/A",
+    "IRR-A 1000/B": "UVS-A 1000/B",
+    "IRR-A 1000/C": "UVS-A 1000/C",
+    "IRR-A 1120/A": "UVS-A 1120/A",
+    "IRR-A 1120/B": "UVS-A 1120/B",
+    "IRR-A 400": "UVS-A 400",
+    "IRR-A 450": "UVS-A 450",
+    "IRR-A 500": "UVS-A 500",
+    "IRR-A 560": "UVS-A 560",
+    "IRR-A 630": "UVS-A 630",
+    "IRR-A 710": "UVS-A 710",
+    "IRR-A 800/A": "UVS-A 800/A",
+    "IRR-A 800/B": "UVS-A 800/B",
+    "IRR-A 900/A": "UVS-A 900/A",
+    "IRR-A 900/B": "UVS-A 900/B",
+    "IRR-A 900/C": "UVS-A 900/C"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-A.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-A_Installation_Operation_Maintenance_Manual_EN.pdf"
    ]
   },
-  "IRT-AKM": {
+  "IRR-AKM": {
    "sourceCode": "UVS-AKM",
    "models": {
-    "IRT-AKM 300": "UVS-AKM 300",
-    "IRT-AKM 350": "UVS-AKM 350",
-    "IRT-AKM 400": "UVS-AKM 400",
-    "IRT-AKM 500": "UVS-AKM 500",
-    "IRT-AKM 600": "UVS-AKM 600",
-    "IRT-AKT 300": "UVS-AKT 300",
-    "IRT-AKT 350": "UVS-AKT 350",
-    "IRT-AKT 400": "UVS-AKT 400",
-    "IRT-AKT 500": "UVS-AKT 500",
-    "IRT-AKT 600": "UVS-AKT 600"
+    "IRR-AKM 300": "UVS-AKM 300",
+    "IRR-AKM 350": "UVS-AKM 350",
+    "IRR-AKM 400": "UVS-AKM 400",
+    "IRR-AKM 500": "UVS-AKM 500",
+    "IRR-AKM 600": "UVS-AKM 600",
+    "IRR-AKT 300": "UVS-AKT 300",
+    "IRR-AKT 350": "UVS-AKT 350",
+    "IRR-AKT 400": "UVS-AKT 400",
+    "IRR-AKT 500": "UVS-AKT 500",
+    "IRR-AKT 600": "UVS-AKT 600"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-AKM.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-AKM_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-AL": {
+  "IRR-AL": {
    "sourceCode": "UVS-AL",
    "models": {
-    "IRT-AL/1 140-70": "UVS-AL/1 140-70",
-    "IRT-AL/2 160-90": "UVS-AL/2 160-90",
-    "IRT-AL/3 180-90": "UVS-AL/3 180-90",
-    "IRT-AL/4 225-102": "UVS-AL/4 225-102",
-    "IRT-AL/4 225-90": "UVS-AL/4 225-90",
-    "IRT-AL/5 250-112": "UVS-AL/5 250-112",
-    "IRT-AL/5 250-118": "UVS-AL/5 250-118",
-    "IRT-AL/6 268-112": "UVS-AL/6 268-112",
-    "IRT-AL/6 268-118": "UVS-AL/6 268-118"
+    "IRR-AL/1 140-70": "UVS-AL/1 140-70",
+    "IRR-AL/2 160-90": "UVS-AL/2 160-90",
+    "IRR-AL/3 180-90": "UVS-AL/3 180-90",
+    "IRR-AL/4 225-102": "UVS-AL/4 225-102",
+    "IRR-AL/4 225-90": "UVS-AL/4 225-90",
+    "IRR-AL/5 250-112": "UVS-AL/5 250-112",
+    "IRR-AL/5 250-118": "UVS-AL/5 250-118",
+    "IRR-AL/6 268-112": "UVS-AL/6 268-112",
+    "IRR-AL/6 268-118": "UVS-AL/6 268-118"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-AL-K.pdf",
@@ -65,268 +65,268 @@
     "assets/catalog/files/manual/UVENTS_UVS-AL_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-AL-K": {
+  "IRR-AL-K": {
    "sourceCode": "UVS-AL-K",
    "models": {
-    "IRT-AL-K4": "UVS-AL-K4",
-    "IRT-AL-K6": "UVS-AL-K6"
+    "IRR-AL-K4": "UVS-AL-K4",
+    "IRR-AL-K6": "UVS-AL-K6"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-AL-K.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-AL-K_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-BA": {
+  "IRR-BA": {
    "sourceCode": "UVS-BA",
    "models": {
-    "IRT-BA 200": "UVS-BA 200",
-    "IRT-BA 250": "UVS-BA 250",
-    "IRT-BA 300": "UVS-BA 300",
-    "IRT-BA 350": "UVS-BA 350"
+    "IRR-BA 200": "UVS-BA 200",
+    "IRR-BA 250": "UVS-BA 250",
+    "IRR-BA 300": "UVS-BA 300",
+    "IRR-BA 350": "UVS-BA 350"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-BA.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-BA_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-BF": {
+  "IRR-BF": {
    "sourceCode": "UVS-BF",
    "models": {
-    "IRT-BF 315A": "UVS-BF 315A",
-    "IRT-BF 315B": "UVS-BF 315B"
+    "IRR-BF 315A": "UVS-BF 315A",
+    "IRR-BF 315B": "UVS-BF 315B"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-BF.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-BF_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-CES": {
+  "IRR-CES": {
    "sourceCode": "UVS-CES",
    "models": {
-    "IRT-CES": "UVS-CES"
+    "IRR-CES": "UVS-CES"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-CES.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-CES_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-DKA": {
+  "IRR-DKA": {
    "sourceCode": "UVS-DKA",
    "models": {
-    "IRT-DKA 200": "UVS-DKA 200",
-    "IRT-DKA 250": "UVS-DKA 250",
-    "IRT-DKA 300": "UVS-DKA 300",
-    "IRT-DKA 350": "UVS-DKA 350"
+    "IRR-DKA 200": "UVS-DKA 200",
+    "IRR-DKA 250": "UVS-DKA 250",
+    "IRR-DKA 300": "UVS-DKA 300",
+    "IRR-DKA 350": "UVS-DKA 350"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-DKA.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-DKA_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-DKF": {
+  "IRR-DKF": {
    "sourceCode": "UVS-DKF",
    "models": {
-    "IRT-DKF 100x50": "UVS-DKF 100x50",
-    "IRT-DKF 30x15": "UVS-DKF 30x15",
-    "IRT-DKF 40x20 A": "UVS-DKF 40x20 A",
-    "IRT-DKF 40x20 B": "UVS-DKF 40x20 B",
-    "IRT-DKF 50x25": "UVS-DKF 50x25",
-    "IRT-DKF 60x30": "UVS-DKF 60x30",
-    "IRT-DKF 60x35 A": "UVS-DKF 60x35 A",
-    "IRT-DKF 60x35 B": "UVS-DKF 60x35 B",
-    "IRT-DKF 70x40 A": "UVS-DKF 70x40 A",
-    "IRT-DKF 70x40 B": "UVS-DKF 70x40 B",
-    "IRT-DKF 80x50": "UVS-DKF 80x50"
+    "IRR-DKF 100x50": "UVS-DKF 100x50",
+    "IRR-DKF 30x15": "UVS-DKF 30x15",
+    "IRR-DKF 40x20 A": "UVS-DKF 40x20 A",
+    "IRR-DKF 40x20 B": "UVS-DKF 40x20 B",
+    "IRR-DKF 50x25": "UVS-DKF 50x25",
+    "IRR-DKF 60x30": "UVS-DKF 60x30",
+    "IRR-DKF 60x35 A": "UVS-DKF 60x35 A",
+    "IRR-DKF 60x35 B": "UVS-DKF 60x35 B",
+    "IRR-DKF 70x40 A": "UVS-DKF 70x40 A",
+    "IRR-DKF 70x40 B": "UVS-DKF 70x40 B",
+    "IRR-DKF 80x50": "UVS-DKF 80x50"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-DKF.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-DKF_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-DMK": {
+  "IRR-DMK": {
    "sourceCode": "UVS-DMK",
    "models": {
-    "IRT-DMK 120": "UVS-DMK 120",
-    "IRT-DMK 140": "UVS-DMK 140",
-    "IRT-DMK 160": "UVS-DMK 160"
+    "IRR-DMK 120": "UVS-DMK 120",
+    "IRR-DMK 140": "UVS-DMK 140",
+    "IRR-DMK 160": "UVS-DMK 160"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-DMK.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-DMK_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-FGDK": {
+  "IRR-FGDK": {
    "sourceCode": "UVS-FGDK",
    "models": {
-    "IRT-FGDK 315": "UVS-FGDK 315",
-    "IRT-FGDK 355": "UVS-FGDK 355",
-    "IRT-FGDK 400": "UVS-FGDK 400",
-    "IRT-FGDK 450": "UVS-FGDK 450",
-    "IRT-FGDK 500": "UVS-FGDK 500",
-    "IRT-FGDK 560": "UVS-FGDK 560"
+    "IRR-FGDK 315": "UVS-FGDK 315",
+    "IRR-FGDK 355": "UVS-FGDK 355",
+    "IRR-FGDK 400": "UVS-FGDK 400",
+    "IRR-FGDK 450": "UVS-FGDK 450",
+    "IRR-FGDK 500": "UVS-FGDK 500",
+    "IRR-FGDK 560": "UVS-FGDK 560"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-FGDK.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-FGDK_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-FGM63": {
+  "IRR-FGM63": {
    "sourceCode": "UVS-FGM63",
    "models": {
-    "IRT-FGM 63-100": "UVS-FGM 63-100",
-    "IRT-FGM 63-112": "UVS-FGM 63-112",
-    "IRT-FGM 63-28": "UVS-FGM 63-28",
-    "IRT-FGM 63-31": "UVS-FGM 63-31",
-    "IRT-FGM 63-35": "UVS-FGM 63-35",
-    "IRT-FGM 63-40A": "UVS-FGM 63-40A",
-    "IRT-FGM 63-40B": "UVS-FGM 63-40B",
-    "IRT-FGM 63-45A": "UVS-FGM 63-45A",
-    "IRT-FGM 63-45B": "UVS-FGM 63-45B",
-    "IRT-FGM 63-50A": "UVS-FGM 63-50A",
-    "IRT-FGM 63-50B": "UVS-FGM 63-50B",
-    "IRT-FGM 63-56A": "UVS-FGM 63-56A",
-    "IRT-FGM 63-56B": "UVS-FGM 63-56B",
-    "IRT-FGM 63-63A": "UVS-FGM 63-63A",
-    "IRT-FGM 63-63B": "UVS-FGM 63-63B",
-    "IRT-FGM 63-71": "UVS-FGM 63-71",
-    "IRT-FGM 63-80": "UVS-FGM 63-80",
-    "IRT-FGM 63-90": "UVS-FGM 63-90"
+    "IRR-FGM 63-100": "UVS-FGM 63-100",
+    "IRR-FGM 63-112": "UVS-FGM 63-112",
+    "IRR-FGM 63-28": "UVS-FGM 63-28",
+    "IRR-FGM 63-31": "UVS-FGM 63-31",
+    "IRR-FGM 63-35": "UVS-FGM 63-35",
+    "IRR-FGM 63-40A": "UVS-FGM 63-40A",
+    "IRR-FGM 63-40B": "UVS-FGM 63-40B",
+    "IRR-FGM 63-45A": "UVS-FGM 63-45A",
+    "IRR-FGM 63-45B": "UVS-FGM 63-45B",
+    "IRR-FGM 63-50A": "UVS-FGM 63-50A",
+    "IRR-FGM 63-50B": "UVS-FGM 63-50B",
+    "IRR-FGM 63-56A": "UVS-FGM 63-56A",
+    "IRR-FGM 63-56B": "UVS-FGM 63-56B",
+    "IRR-FGM 63-63A": "UVS-FGM 63-63A",
+    "IRR-FGM 63-63B": "UVS-FGM 63-63B",
+    "IRR-FGM 63-71": "UVS-FGM 63-71",
+    "IRR-FGM 63-80": "UVS-FGM 63-80",
+    "IRR-FGM 63-90": "UVS-FGM 63-90"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-FGM63.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-FGM63_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-FGM80": {
+  "IRR-FGM80": {
    "sourceCode": "UVS-FGM80",
    "models": {
-    "IRT-FGM 80-20A": "UVS-FGM 80-20A",
-    "IRT-FGM 80-20B": "UVS-FGM 80-20B",
-    "IRT-FGM 80-22A": "UVS-FGM 80-22A",
-    "IRT-FGM 80-22B": "UVS-FGM 80-22B",
-    "IRT-FGM 80-25A": "UVS-FGM 80-25A",
-    "IRT-FGM 80-25B": "UVS-FGM 80-25B",
-    "IRT-FGM 80-28A": "UVS-FGM 80-28A",
-    "IRT-FGM 80-28B": "UVS-FGM 80-28B",
-    "IRT-FGM 80-31A": "UVS-FGM 80-31A",
-    "IRT-FGM 80-31B": "UVS-FGM 80-31B",
-    "IRT-FGM 80-35": "UVS-FGM 80-35",
-    "IRT-FGM 80-40": "UVS-FGM 80-40",
-    "IRT-FGM 80-45": "UVS-FGM 80-45",
-    "IRT-FGM 80-50": "UVS-FGM 80-50",
-    "IRT-FGM 80-56": "UVS-FGM 80-56"
+    "IRR-FGM 80-20A": "UVS-FGM 80-20A",
+    "IRR-FGM 80-20B": "UVS-FGM 80-20B",
+    "IRR-FGM 80-22A": "UVS-FGM 80-22A",
+    "IRR-FGM 80-22B": "UVS-FGM 80-22B",
+    "IRR-FGM 80-25A": "UVS-FGM 80-25A",
+    "IRR-FGM 80-25B": "UVS-FGM 80-25B",
+    "IRR-FGM 80-28A": "UVS-FGM 80-28A",
+    "IRR-FGM 80-28B": "UVS-FGM 80-28B",
+    "IRR-FGM 80-31A": "UVS-FGM 80-31A",
+    "IRR-FGM 80-31B": "UVS-FGM 80-31B",
+    "IRR-FGM 80-35": "UVS-FGM 80-35",
+    "IRR-FGM 80-40": "UVS-FGM 80-40",
+    "IRR-FGM 80-45": "UVS-FGM 80-45",
+    "IRR-FGM 80-50": "UVS-FGM 80-50",
+    "IRR-FGM 80-56": "UVS-FGM 80-56"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-FGM80.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-FGM80_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-FTR": {
+  "IRR-FTR": {
    "sourceCode": "UVS-FTR",
    "models": {
-    "IRT-FTR 250": "UVS-FTR 250",
-    "IRT-FTR 280": "UVS-FTR 280",
-    "IRT-FTR 355": "UVS-FTR 355",
-    "IRT-FTR 400": "UVS-FTR 400",
-    "IRT-FTR 450": "UVS-FTR 450",
-    "IRT-FTR 500": "UVS-FTR 500",
-    "IRT-FTR 560": "UVS-FTR 560"
+    "IRR-FTR 250": "UVS-FTR 250",
+    "IRR-FTR 280": "UVS-FTR 280",
+    "IRR-FTR 355": "UVS-FTR 355",
+    "IRR-FTR 400": "UVS-FTR 400",
+    "IRR-FTR 450": "UVS-FTR 450",
+    "IRR-FTR 500": "UVS-FTR 500",
+    "IRR-FTR 560": "UVS-FTR 560"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-FTR.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-FTR_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-GB": {
+  "IRR-GB": {
    "sourceCode": "UVS-GB",
    "models": {
-    "IRT-GB320": "UVS-GB320",
-    "IRT-GB350A": "UVS-GB350A",
-    "IRT-GB350B": "UVS-GB350B",
-    "IRT-GB400A": "UVS-GB400A",
-    "IRT-GB400B": "UVS-GB400B",
-    "IRT-GB450A": "UVS-GB450A",
-    "IRT-GB450B": "UVS-GB450B",
-    "IRT-GB500A": "UVS-GB500A",
-    "IRT-GB500B": "UVS-GB500B",
-    "IRT-GB500C": "UVS-GB500C",
-    "IRT-GB550A": "UVS-GB550A",
-    "IRT-GB550B": "UVS-GB550B",
-    "IRT-GB630A": "UVS-GB630A",
-    "IRT-GB630B": "UVS-GB630B",
-    "IRT-GB630C": "UVS-GB630C",
-    "IRT-GB700A": "UVS-GB700A",
-    "IRT-GB700B": "UVS-GB700B",
-    "IRT-GB800A": "UVS-GB800A",
-    "IRT-GB800B": "UVS-GB800B"
+    "IRR-GB320": "UVS-GB320",
+    "IRR-GB350A": "UVS-GB350A",
+    "IRR-GB350B": "UVS-GB350B",
+    "IRR-GB400A": "UVS-GB400A",
+    "IRR-GB400B": "UVS-GB400B",
+    "IRR-GB450A": "UVS-GB450A",
+    "IRR-GB450B": "UVS-GB450B",
+    "IRR-GB500A": "UVS-GB500A",
+    "IRR-GB500B": "UVS-GB500B",
+    "IRR-GB500C": "UVS-GB500C",
+    "IRR-GB550A": "UVS-GB550A",
+    "IRR-GB550B": "UVS-GB550B",
+    "IRR-GB630A": "UVS-GB630A",
+    "IRR-GB630B": "UVS-GB630B",
+    "IRR-GB630C": "UVS-GB630C",
+    "IRR-GB700A": "UVS-GB700A",
+    "IRR-GB700B": "UVS-GB700B",
+    "IRR-GB800A": "UVS-GB800A",
+    "IRR-GB800B": "UVS-GB800B"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-GB.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-GB_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-GR": {
+  "IRR-GR": {
    "sourceCode": "UVS-GR",
    "models": {
-    "IRT-GR300": "UVS-GR300",
-    "IRT-GR320": "UVS-GR320",
-    "IRT-GR350A": "UVS-GR350A",
-    "IRT-GR350B": "UVS-GR350B",
-    "IRT-GR400A": "UVS-GR400A",
-    "IRT-GR400B": "UVS-GR400B",
-    "IRT-GR450A": "UVS-GR450A",
-    "IRT-GR450B": "UVS-GR450B",
-    "IRT-GR500A": "UVS-GR500A",
-    "IRT-GR500B": "UVS-GR500B"
+    "IRR-GR300": "UVS-GR300",
+    "IRR-GR320": "UVS-GR320",
+    "IRR-GR350A": "UVS-GR350A",
+    "IRR-GR350B": "UVS-GR350B",
+    "IRR-GR400A": "UVS-GR400A",
+    "IRR-GR400B": "UVS-GR400B",
+    "IRR-GR450A": "UVS-GR450A",
+    "IRR-GR450B": "UVS-GR450B",
+    "IRR-GR500A": "UVS-GR500A",
+    "IRR-GR500B": "UVS-GR500B"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-GR.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-GR_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-GS": {
+  "IRR-FGS": {
    "sourceCode": "UVS-GS",
    "models": {
-    "IRT-GS320": "UVS-GS320",
-    "IRT-GS350A": "UVS-GS350A",
-    "IRT-GS350B": "UVS-GS350B",
-    "IRT-GS400A": "UVS-GS400A",
-    "IRT-GS400B": "UVS-GS400B",
-    "IRT-GS450A": "UVS-GS450A",
-    "IRT-GS450B": "UVS-GS450B",
-    "IRT-GS500A": "UVS-GS500A",
-    "IRT-GS500B": "UVS-GS500B",
-    "IRT-GS500C": "UVS-GS500C",
-    "IRT-GS550A": "UVS-GS550A",
-    "IRT-GS550B": "UVS-GS550B",
-    "IRT-GS630A": "UVS-GS630A",
-    "IRT-GS630B": "UVS-GS630B",
-    "IRT-GS630C": "UVS-GS630C",
-    "IRT-GS700A": "UVS-GS700A",
-    "IRT-GS700B": "UVS-GS700B",
-    "IRT-GS800A": "UVS-GS800A",
-    "IRT-GS800B": "UVS-GS800B"
+    "IRR-FGS320": "UVS-GS320",
+    "IRR-FGS350A": "UVS-GS350A",
+    "IRR-FGS350B": "UVS-GS350B",
+    "IRR-FGS400A": "UVS-GS400A",
+    "IRR-FGS400B": "UVS-GS400B",
+    "IRR-FGS450A": "UVS-GS450A",
+    "IRR-FGS450B": "UVS-GS450B",
+    "IRR-FGS500A": "UVS-GS500A",
+    "IRR-FGS500B": "UVS-GS500B",
+    "IRR-FGS500C": "UVS-GS500C",
+    "IRR-FGS550A": "UVS-GS550A",
+    "IRR-FGS550B": "UVS-GS550B",
+    "IRR-FGS630A": "UVS-GS630A",
+    "IRR-FGS630B": "UVS-GS630B",
+    "IRR-FGS630C": "UVS-GS630C",
+    "IRR-FGS700A": "UVS-GS700A",
+    "IRR-FGS700B": "UVS-GS700B",
+    "IRR-FGS800A": "UVS-GS800A",
+    "IRR-FGS800B": "UVS-GS800B"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-GS.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-GS_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-H": {
+  "IRR-H": {
    "sourceCode": "UVS-H",
    "models": {
-    "IRT-H10X10 A": "UVS-H10X10 A",
-    "IRT-H10X10 B": "UVS-H10X10 B",
-    "IRT-H12X12 A": "UVS-H12X12 A",
-    "IRT-H12X12 B": "UVS-H12X12 B",
-    "IRT-H15X15 A": "UVS-H15X15 A",
-    "IRT-H15X15 B": "UVS-H15X15 B",
-    "IRT-H18X18 A": "UVS-H18X18 A",
-    "IRT-H18X18 B": "UVS-H18X18 B",
-    "IRT-H7X7 A": "UVS-H7X7 A",
-    "IRT-H7X7 B": "UVS-H7X7 B",
-    "IRT-H9X9 A": "UVS-H9X9 A",
-    "IRT-H9X9 B": "UVS-H9X9 B"
+    "IRR-H10X10 A": "UVS-H10X10 A",
+    "IRR-H10X10 B": "UVS-H10X10 B",
+    "IRR-H12X12 A": "UVS-H12X12 A",
+    "IRR-H12X12 B": "UVS-H12X12 B",
+    "IRR-H15X15 A": "UVS-H15X15 A",
+    "IRR-H15X15 B": "UVS-H15X15 B",
+    "IRR-H18X18 A": "UVS-H18X18 A",
+    "IRR-H18X18 B": "UVS-H18X18 B",
+    "IRR-H7X7 A": "UVS-H7X7 A",
+    "IRR-H7X7 B": "UVS-H7X7 B",
+    "IRR-H9X9 A": "UVS-H9X9 A",
+    "IRR-H9X9 B": "UVS-H9X9 B"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-H-EKO.pdf",
@@ -334,221 +334,221 @@
     "assets/catalog/files/manual/UVENTS_UVS-H_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-H EKO": {
+  "IRR-H EKO": {
    "sourceCode": "UVS-H EKO",
    "models": {
-    "IRT-H EKO 10X10 A": "UVS-H EKO 10X10 A",
-    "IRT-H EKO 10X10 B": "UVS-H EKO 10X10 B",
-    "IRT-H EKO 12X12 A": "UVS-H EKO 12X12 A",
-    "IRT-H EKO 12X12 B": "UVS-H EKO 12X12 B",
-    "IRT-H EKO 7X7 A": "UVS-H EKO 7X7 A",
-    "IRT-H EKO 7X7 B": "UVS-H EKO 7X7 B",
-    "IRT-H EKO 9X9 A": "UVS-H EKO 9X9 A",
-    "IRT-H EKO 9X9 B": "UVS-H EKO 9X9 B"
+    "IRR-H EKO 10X10 A": "UVS-H EKO 10X10 A",
+    "IRR-H EKO 10X10 B": "UVS-H EKO 10X10 B",
+    "IRR-H EKO 12X12 A": "UVS-H EKO 12X12 A",
+    "IRR-H EKO 12X12 B": "UVS-H EKO 12X12 B",
+    "IRR-H EKO 7X7 A": "UVS-H EKO 7X7 A",
+    "IRR-H EKO 7X7 B": "UVS-H EKO 7X7 B",
+    "IRR-H EKO 9X9 A": "UVS-H EKO 9X9 A",
+    "IRR-H EKO 9X9 B": "UVS-H EKO 9X9 B"
    },
    "files": [
     "assets/catalog/files/manual/UVENTS_UVS-H-EKO_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-HS": {
+  "IRR-HS": {
    "sourceCode": "UVS-HS",
    "models": {
-    "IRT-HS 280 A": "UVS-HS 280 A",
-    "IRT-HS 280 B": "UVS-HS 280 B",
-    "IRT-HS 315 A": "UVS-HS 315 A",
-    "IRT-HS 315 B": "UVS-HS 315 B",
-    "IRT-HS 355 A": "UVS-HS 355 A",
-    "IRT-HS 355 B": "UVS-HS 355 B",
-    "IRT-HS 400 A": "UVS-HS 400 A",
-    "IRT-HS 400 B": "UVS-HS 400 B",
-    "IRT-HS 450 A": "UVS-HS 450 A",
-    "IRT-HS 450 B": "UVS-HS 450 B",
-    "IRT-HS 500 A": "UVS-HS 500 A",
-    "IRT-HS 500 B": "UVS-HS 500 B",
-    "IRT-HS 560 A": "UVS-HS 560 A",
-    "IRT-HS 560 B": "UVS-HS 560 B",
-    "IRT-HS 630 A": "UVS-HS 630 A",
-    "IRT-HS 630 B": "UVS-HS 630 B"
+    "IRR-HS 280 A": "UVS-HS 280 A",
+    "IRR-HS 280 B": "UVS-HS 280 B",
+    "IRR-HS 315 A": "UVS-HS 315 A",
+    "IRR-HS 315 B": "UVS-HS 315 B",
+    "IRR-HS 355 A": "UVS-HS 355 A",
+    "IRR-HS 355 B": "UVS-HS 355 B",
+    "IRR-HS 400 A": "UVS-HS 400 A",
+    "IRR-HS 400 B": "UVS-HS 400 B",
+    "IRR-HS 450 A": "UVS-HS 450 A",
+    "IRR-HS 450 B": "UVS-HS 450 B",
+    "IRR-HS 500 A": "UVS-HS 500 A",
+    "IRR-HS 500 B": "UVS-HS 500 B",
+    "IRR-HS 560 A": "UVS-HS 560 A",
+    "IRR-HS 560 B": "UVS-HS 560 B",
+    "IRR-HS 630 A": "UVS-HS 630 A",
+    "IRR-HS 630 B": "UVS-HS 630 B"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-HS.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-HS_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-IGK": {
+  "IRR-IGK": {
    "sourceCode": "UVS-IGK",
    "models": {
-    "IRT-IGK 100": "UVS-IGK 100",
-    "IRT-IGK 200": "UVS-IGK 200",
-    "IRT-IGK 300": "UVS-IGK 300",
-    "IRT-IGK 400": "UVS-IGK 400",
-    "IRT-IGK 500": "UVS-IGK 500"
+    "IRR-IGK 100": "UVS-IGK 100",
+    "IRR-IGK 200": "UVS-IGK 200",
+    "IRR-IGK 300": "UVS-IGK 300",
+    "IRR-IGK 400": "UVS-IGK 400",
+    "IRR-IGK 500": "UVS-IGK 500"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-IGK.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-IGK_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-K": {
+  "IRR-K": {
    "sourceCode": "UVS-K",
    "models": {
-    "IRT-K1": "UVS-K1",
-    "IRT-K10": "UVS-K10",
-    "IRT-K2": "UVS-K2",
-    "IRT-K3": "UVS-K3",
-    "IRT-K4": "UVS-K4",
-    "IRT-K5": "UVS-K5",
-    "IRT-K6": "UVS-K6",
-    "IRT-K7": "UVS-K7",
-    "IRT-K8": "UVS-K8",
-    "IRT-K9": "UVS-K9"
+    "IRR-K1": "UVS-K1",
+    "IRR-K10": "UVS-K10",
+    "IRR-K2": "UVS-K2",
+    "IRR-K3": "UVS-K3",
+    "IRR-K4": "UVS-K4",
+    "IRR-K5": "UVS-K5",
+    "IRR-K6": "UVS-K6",
+    "IRR-K7": "UVS-K7",
+    "IRR-K8": "UVS-K8",
+    "IRR-K9": "UVS-K9"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-K.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-K_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-KA": {
+  "IRR-KA": {
    "sourceCode": "UVS-KA",
    "models": {
-    "IRT-KA1": "UVS-KA1",
-    "IRT-KA10": "UVS-KA10",
-    "IRT-KA2": "UVS-KA2",
-    "IRT-KA3": "UVS-KA3",
-    "IRT-KA4": "UVS-KA4",
-    "IRT-KA5": "UVS-KA5",
-    "IRT-KA6": "UVS-KA6",
-    "IRT-KA7": "UVS-KA7",
-    "IRT-KA8": "UVS-KA8",
-    "IRT-KA9": "UVS-KA9"
+    "IRR-KA1": "UVS-KA1",
+    "IRR-KA10": "UVS-KA10",
+    "IRR-KA2": "UVS-KA2",
+    "IRR-KA3": "UVS-KA3",
+    "IRR-KA4": "UVS-KA4",
+    "IRR-KA5": "UVS-KA5",
+    "IRR-KA6": "UVS-KA6",
+    "IRR-KA7": "UVS-KA7",
+    "IRR-KA8": "UVS-KA8",
+    "IRR-KA9": "UVS-KA9"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-KA.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-KA_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-KEF": {
+  "IRR-KEF": {
    "sourceCode": "UVS-KEF",
    "models": {
-    "IRT-KEF 315": "UVS-KEF 315",
-    "IRT-KEF 355": "UVS-KEF 355",
-    "IRT-KEF 400": "UVS-KEF 400",
-    "IRT-KEF 450": "UVS-KEF 450",
-    "IRT-KEF 500": "UVS-KEF 500"
+    "IRR-KEF 315": "UVS-KEF 315",
+    "IRR-KEF 355": "UVS-KEF 355",
+    "IRR-KEF 400": "UVS-KEF 400",
+    "IRR-KEF 450": "UVS-KEF 450",
+    "IRR-KEF 500": "UVS-KEF 500"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-KEF.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-KEF_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-KKF": {
+  "IRR-KKF": {
    "sourceCode": "UVS-KKF",
    "models": {
-    "IRT-KKF 350": "UVS-KKF 350",
-    "IRT-KKF 400": "UVS-KKF 400",
-    "IRT-KKF 450": "UVS-KKF 450",
-    "IRT-KKF 500": "UVS-KKF 500",
-    "IRT-KKF 560": "UVS-KKF 560"
+    "IRR-KKF 350": "UVS-KKF 350",
+    "IRR-KKF 400": "UVS-KKF 400",
+    "IRR-KKF 450": "UVS-KKF 450",
+    "IRR-KKF 500": "UVS-KKF 500",
+    "IRR-KKF 560": "UVS-KKF 560"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-KKF.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-KKF_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-KO-A": {
+  "IRR-KO-A": {
    "sourceCode": "UVS-KO-A",
    "models": {
-    "IRT-KO-A-1000/A": "UVS-KO-A-1000/A",
-    "IRT-KO-A-1000/B": "UVS-KO-A-1000/B",
-    "IRT-KO-A-1000/C": "UVS-KO-A-1000/C",
-    "IRT-KO-A-1120/A": "UVS-KO-A-1120/A",
-    "IRT-KO-A-1120/B": "UVS-KO-A-1120/B",
-    "IRT-KO-A-400": "UVS-KO-A-400",
-    "IRT-KO-A-450": "UVS-KO-A-450",
-    "IRT-KO-A-500": "UVS-KO-A-500",
-    "IRT-KO-A-560": "UVS-KO-A-560",
-    "IRT-KO-A-630": "UVS-KO-A-630",
-    "IRT-KO-A-710": "UVS-KO-A-710",
-    "IRT-KO-A-800/A": "UVS-KO-A-800/A",
-    "IRT-KO-A-800/B": "UVS-KO-A-800/B",
-    "IRT-KO-A-900/A": "UVS-KO-A-900/A",
-    "IRT-KO-A-900/B": "UVS-KO-A-900/B",
-    "IRT-KO-A-900/C": "UVS-KO-A-900/C"
+    "IRR-KO-A-1000/A": "UVS-KO-A-1000/A",
+    "IRR-KO-A-1000/B": "UVS-KO-A-1000/B",
+    "IRR-KO-A-1000/C": "UVS-KO-A-1000/C",
+    "IRR-KO-A-1120/A": "UVS-KO-A-1120/A",
+    "IRR-KO-A-1120/B": "UVS-KO-A-1120/B",
+    "IRR-KO-A-400": "UVS-KO-A-400",
+    "IRR-KO-A-450": "UVS-KO-A-450",
+    "IRR-KO-A-500": "UVS-KO-A-500",
+    "IRR-KO-A-560": "UVS-KO-A-560",
+    "IRR-KO-A-630": "UVS-KO-A-630",
+    "IRR-KO-A-710": "UVS-KO-A-710",
+    "IRR-KO-A-800/A": "UVS-KO-A-800/A",
+    "IRR-KO-A-800/B": "UVS-KO-A-800/B",
+    "IRR-KO-A-900/A": "UVS-KO-A-900/A",
+    "IRR-KO-A-900/B": "UVS-KO-A-900/B",
+    "IRR-KO-A-900/C": "UVS-KO-A-900/C"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-KO-A.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-KO-A_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-KO-AF3": {
+  "IRR-KO-AF3": {
    "sourceCode": "UVS-KO-AF3",
    "models": {
-    "IRT-KO-AF3-1000/A": "UVS-KO-AF3-1000/A",
-    "IRT-KO-AF3-1000/B": "UVS-KO-AF3-1000/B",
-    "IRT-KO-AF3-1000/C": "UVS-KO-AF3-1000/C",
-    "IRT-KO-AF3-1120/A": "UVS-KO-AF3-1120/A",
-    "IRT-KO-AF3-1120/B": "UVS-KO-AF3-1120/B",
-    "IRT-KO-AF3-400": "UVS-KO-AF3-400",
-    "IRT-KO-AF3-450": "UVS-KO-AF3-450",
-    "IRT-KO-AF3-500": "UVS-KO-AF3-500",
-    "IRT-KO-AF3-560": "UVS-KO-AF3-560",
-    "IRT-KO-AF3-630": "UVS-KO-AF3-630",
-    "IRT-KO-AF3-710": "UVS-KO-AF3-710",
-    "IRT-KO-AF3-800/A": "UVS-KO-AF3-800/A",
-    "IRT-KO-AF3-800/B": "UVS-KO-AF3-800/B",
-    "IRT-KO-AF3-900/A": "UVS-KO-AF3-900/A",
-    "IRT-KO-AF3-900/B": "UVS-KO-AF3-900/B",
-    "IRT-KO-AF3-900/C": "UVS-KO-AF3-900/C"
+    "IRR-KO-AF3-1000/A": "UVS-KO-AF3-1000/A",
+    "IRR-KO-AF3-1000/B": "UVS-KO-AF3-1000/B",
+    "IRR-KO-AF3-1000/C": "UVS-KO-AF3-1000/C",
+    "IRR-KO-AF3-1120/A": "UVS-KO-AF3-1120/A",
+    "IRR-KO-AF3-1120/B": "UVS-KO-AF3-1120/B",
+    "IRR-KO-AF3-400": "UVS-KO-AF3-400",
+    "IRR-KO-AF3-450": "UVS-KO-AF3-450",
+    "IRR-KO-AF3-500": "UVS-KO-AF3-500",
+    "IRR-KO-AF3-560": "UVS-KO-AF3-560",
+    "IRR-KO-AF3-630": "UVS-KO-AF3-630",
+    "IRR-KO-AF3-710": "UVS-KO-AF3-710",
+    "IRR-KO-AF3-800/A": "UVS-KO-AF3-800/A",
+    "IRR-KO-AF3-800/B": "UVS-KO-AF3-800/B",
+    "IRR-KO-AF3-900/A": "UVS-KO-AF3-900/A",
+    "IRR-KO-AF3-900/B": "UVS-KO-AF3-900/B",
+    "IRR-KO-AF3-900/C": "UVS-KO-AF3-900/C"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-KO-AF3.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-KO-AF3_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-KO-AF4": {
+  "IRR-KO-AF4": {
    "sourceCode": "UVS-KO-AF4",
    "models": {
-    "IRT-KO-AF4-1000/A": "UVS-KO-AF4-1000/A",
-    "IRT-KO-AF4-1000/B": "UVS-KO-AF4-1000/B",
-    "IRT-KO-AF4-1000/C": "UVS-KO-AF4-1000/C",
-    "IRT-KO-AF4-1120/A": "UVS-KO-AF4-1120/A",
-    "IRT-KO-AF4-1120/B": "UVS-KO-AF4-1120/B",
-    "IRT-KO-AF4-400": "UVS-KO-AF4-400",
-    "IRT-KO-AF4-450": "UVS-KO-AF4-450",
-    "IRT-KO-AF4-500": "UVS-KO-AF4-500",
-    "IRT-KO-AF4-560": "UVS-KO-AF4-560",
-    "IRT-KO-AF4-630": "UVS-KO-AF4-630",
-    "IRT-KO-AF4-710": "UVS-KO-AF4-710",
-    "IRT-KO-AF4-800/A": "UVS-KO-AF4-800/A",
-    "IRT-KO-AF4-800/B": "UVS-KO-AF4-800/B",
-    "IRT-KO-AF4-900/A": "UVS-KO-AF4-900/A",
-    "IRT-KO-AF4-900/B": "UVS-KO-AF4-900/B",
-    "IRT-KO-AF4-900/C": "UVS-KO-AF4-900/C"
+    "IRR-KO-AF4-1000/A": "UVS-KO-AF4-1000/A",
+    "IRR-KO-AF4-1000/B": "UVS-KO-AF4-1000/B",
+    "IRR-KO-AF4-1000/C": "UVS-KO-AF4-1000/C",
+    "IRR-KO-AF4-1120/A": "UVS-KO-AF4-1120/A",
+    "IRR-KO-AF4-1120/B": "UVS-KO-AF4-1120/B",
+    "IRR-KO-AF4-400": "UVS-KO-AF4-400",
+    "IRR-KO-AF4-450": "UVS-KO-AF4-450",
+    "IRR-KO-AF4-500": "UVS-KO-AF4-500",
+    "IRR-KO-AF4-560": "UVS-KO-AF4-560",
+    "IRR-KO-AF4-630": "UVS-KO-AF4-630",
+    "IRR-KO-AF4-710": "UVS-KO-AF4-710",
+    "IRR-KO-AF4-800/A": "UVS-KO-AF4-800/A",
+    "IRR-KO-AF4-800/B": "UVS-KO-AF4-800/B",
+    "IRR-KO-AF4-900/A": "UVS-KO-AF4-900/A",
+    "IRR-KO-AF4-900/B": "UVS-KO-AF4-900/B",
+    "IRR-KO-AF4-900/C": "UVS-KO-AF4-900/C"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-KO-AF4.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-KO-AF4_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-KO-C": {
+  "IRR-KO-C": {
    "sourceCode": "UVS-KO-C",
    "models": {
-    "IRT-KO-C-1000/A": "UVS-KO-C-1000/A",
-    "IRT-KO-C-1000/B": "UVS-KO-C-1000/B",
-    "IRT-KO-C-1000/C": "UVS-KO-C-1000/C",
-    "IRT-KO-C-1120/A": "UVS-KO-C-1120/A",
-    "IRT-KO-C-1120/B": "UVS-KO-C-1120/B",
-    "IRT-KO-C-400": "UVS-KO-C-400",
-    "IRT-KO-C-450": "UVS-KO-C-450",
-    "IRT-KO-C-500": "UVS-KO-C-500",
-    "IRT-KO-C-560": "UVS-KO-C-560",
-    "IRT-KO-C-630": "UVS-KO-C-630",
-    "IRT-KO-C-710": "UVS-KO-C-710",
-    "IRT-KO-C-800/A": "UVS-KO-C-800/A",
-    "IRT-KO-C-800/B": "UVS-KO-C-800/B",
-    "IRT-KO-C-900/A": "UVS-KO-C-900/A",
-    "IRT-KO-C-900/B": "UVS-KO-C-900/B",
-    "IRT-KO-C-900/C": "UVS-KO-C-900/C"
+    "IRR-KO-C-1000/A": "UVS-KO-C-1000/A",
+    "IRR-KO-C-1000/B": "UVS-KO-C-1000/B",
+    "IRR-KO-C-1000/C": "UVS-KO-C-1000/C",
+    "IRR-KO-C-1120/A": "UVS-KO-C-1120/A",
+    "IRR-KO-C-1120/B": "UVS-KO-C-1120/B",
+    "IRR-KO-C-400": "UVS-KO-C-400",
+    "IRR-KO-C-450": "UVS-KO-C-450",
+    "IRR-KO-C-500": "UVS-KO-C-500",
+    "IRR-KO-C-560": "UVS-KO-C-560",
+    "IRR-KO-C-630": "UVS-KO-C-630",
+    "IRR-KO-C-710": "UVS-KO-C-710",
+    "IRR-KO-C-800/A": "UVS-KO-C-800/A",
+    "IRR-KO-C-800/B": "UVS-KO-C-800/B",
+    "IRR-KO-C-900/A": "UVS-KO-C-900/A",
+    "IRR-KO-C-900/B": "UVS-KO-C-900/B",
+    "IRR-KO-C-900/C": "UVS-KO-C-900/C"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-KO-C.pdf",
@@ -557,25 +557,25 @@
     "assets/catalog/files/manual/UVENTS_UVS-KO-C_F400_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-KO-H": {
+  "IRR-KO-H": {
    "sourceCode": "UVS-KO-H",
    "models": {
-    "IRT-KO-H-1000/A": "UVS-KO-H-1000/A",
-    "IRT-KO-H-1000/B": "UVS-KO-H-1000/B",
-    "IRT-KO-H-1000/C": "UVS-KO-H-1000/C",
-    "IRT-KO-H-1120/A": "UVS-KO-H-1120/A",
-    "IRT-KO-H-1120/B": "UVS-KO-H-1120/B",
-    "IRT-KO-H-400": "UVS-KO-H-400",
-    "IRT-KO-H-450": "UVS-KO-H-450",
-    "IRT-KO-H-500": "UVS-KO-H-500",
-    "IRT-KO-H-560": "UVS-KO-H-560",
-    "IRT-KO-H-630": "UVS-KO-H-630",
-    "IRT-KO-H-710": "UVS-KO-H-710",
-    "IRT-KO-H-800/A": "UVS-KO-H-800/A",
-    "IRT-KO-H-800/B": "UVS-KO-H-800/B",
-    "IRT-KO-H-900/A": "UVS-KO-H-900/A",
-    "IRT-KO-H-900/B": "UVS-KO-H-900/B",
-    "IRT-KO-H-900/C": "UVS-KO-H-900/C"
+    "IRR-KO-H-1000/A": "UVS-KO-H-1000/A",
+    "IRR-KO-H-1000/B": "UVS-KO-H-1000/B",
+    "IRR-KO-H-1000/C": "UVS-KO-H-1000/C",
+    "IRR-KO-H-1120/A": "UVS-KO-H-1120/A",
+    "IRR-KO-H-1120/B": "UVS-KO-H-1120/B",
+    "IRR-KO-H-400": "UVS-KO-H-400",
+    "IRR-KO-H-450": "UVS-KO-H-450",
+    "IRR-KO-H-500": "UVS-KO-H-500",
+    "IRR-KO-H-560": "UVS-KO-H-560",
+    "IRR-KO-H-630": "UVS-KO-H-630",
+    "IRR-KO-H-710": "UVS-KO-H-710",
+    "IRR-KO-H-800/A": "UVS-KO-H-800/A",
+    "IRR-KO-H-800/B": "UVS-KO-H-800/B",
+    "IRR-KO-H-900/A": "UVS-KO-H-900/A",
+    "IRR-KO-H-900/B": "UVS-KO-H-900/B",
+    "IRR-KO-H-900/C": "UVS-KO-H-900/C"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-KO-H.pdf",
@@ -584,263 +584,262 @@
     "assets/catalog/files/manual/UVENTS_UVS-KO-H_F400_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-KSM-KST": {
+  "IRR-KSM-KST": {
    "sourceCode": "UVS-KSM-KST",
    "models": {
-    "IRT-KSM 300": "UVS-KSM 300",
-    "IRT-KSM 350": "UVS-KSM 350",
-    "IRT-KSM 400": "UVS-KSM 400",
-    "IRT-KSM 500": "UVS-KSM 500",
-    "IRT-KSM 600": "UVS-KSM 600",
-    "IRT-KST 300": "UVS-KST 300",
-    "IRT-KST 350": "UVS-KST 350",
-    "IRT-KST 400": "UVS-KST 400",
-    "IRT-KST 500": "UVS-KST 500",
-    "IRT-KST 600": "UVS-KST 600"
+    "IRR-KSM 300": "UVS-KSM 300",
+    "IRR-KSM 350": "UVS-KSM 350",
+    "IRR-KSM 400": "UVS-KSM 400",
+    "IRR-KSM 500": "UVS-KSM 500",
+    "IRR-KSM 600": "UVS-KSM 600",
+    "IRR-KST 300": "UVS-KST 300",
+    "IRR-KST 350": "UVS-KST 350",
+    "IRR-KST 400": "UVS-KST 400",
+    "IRR-KST 500": "UVS-KST 500",
+    "IRR-KST 600": "UVS-KST 600"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-KSM-KST.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-KSM-KST_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-M": {
+  "IRR-M": {
    "sourceCode": "UVS-M",
    "models": {
-    "IRT-M1": "UVS-M1",
-    "IRT-M10": "UVS-M10",
-    "IRT-M2": "UVS-M2",
-    "IRT-M3": "UVS-M3",
-    "IRT-M4": "UVS-M4",
-    "IRT-M5": "UVS-M5",
-    "IRT-M6": "UVS-M6",
-    "IRT-M7": "UVS-M7",
-    "IRT-M8": "UVS-M8",
-    "IRT-M9": "UVS-M9"
+    "IRR-M10": "UVS-M10",
+    "IRR-M2": "UVS-M2",
+    "IRR-M3": "UVS-M3",
+    "IRR-M4": "UVS-M4",
+    "IRR-M5": "UVS-M5",
+    "IRR-M6": "UVS-M6",
+    "IRR-M7": "UVS-M7",
+    "IRR-M8": "UVS-M8",
+    "IRR-M9": "UVS-M9"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-M.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-M_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-MF": {
+  "IRR-MF": {
    "sourceCode": "UVS-MF",
    "models": {
-    "IRT-MF 315": "UVS-MF 315",
-    "IRT-MF 355 A": "UVS-MF 355 A",
-    "IRT-MF 355 B": "UVS-MF 355 B",
-    "IRT-MF 400": "UVS-MF 400",
-    "IRT-MF 450 A": "UVS-MF 450 A",
-    "IRT-MF 450 B": "UVS-MF 450 B",
-    "IRT-MF 500": "UVS-MF 500",
-    "IRT-MF 560 A": "UVS-MF 560 A",
-    "IRT-MF 560 B": "UVS-MF 560 B",
-    "IRT-MF 630": "UVS-MF 630",
-    "IRT-MF 710 A": "UVS-MF 710 A",
-    "IRT-MF 710 B": "UVS-MF 710 B",
-    "IRT-MF 800 A": "UVS-MF 800 A",
-    "IRT-MF 800 B": "UVS-MF 800 B",
-    "IRT-MF 900 A": "UVS-MF 900 A",
-    "IRT-MF 900 B": "UVS-MF 900 B"
+    "IRR-MF 315": "UVS-MF 315",
+    "IRR-MF 355 A": "UVS-MF 355 A",
+    "IRR-MF 355 B": "UVS-MF 355 B",
+    "IRR-MF 400": "UVS-MF 400",
+    "IRR-MF 450 A": "UVS-MF 450 A",
+    "IRR-MF 450 B": "UVS-MF 450 B",
+    "IRR-MF 500": "UVS-MF 500",
+    "IRR-MF 560 A": "UVS-MF 560 A",
+    "IRR-MF 560 B": "UVS-MF 560 B",
+    "IRR-MF 630": "UVS-MF 630",
+    "IRR-MF 710 A": "UVS-MF 710 A",
+    "IRR-MF 710 B": "UVS-MF 710 B",
+    "IRR-MF 800 A": "UVS-MF 800 A",
+    "IRR-MF 800 B": "UVS-MF 800 B",
+    "IRR-MF 900 A": "UVS-MF 900 A",
+    "IRR-MF 900 B": "UVS-MF 900 B"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-MF.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-MF_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-MKS": {
+  "IRR-MKS": {
    "sourceCode": "UVS-MKS",
    "models": {
-    "IRT-MKS 120": "UVS-MKS 120",
-    "IRT-MKS 140": "UVS-MKS 140",
-    "IRT-MKS 160": "UVS-MKS 160"
+    "IRR-MKS 120": "UVS-MKS 120",
+    "IRR-MKS 140": "UVS-MKS 140",
+    "IRR-MKS 160": "UVS-MKS 160"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-MKS.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-MKS_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-OBR200": {
+  "IRR-OBR200": {
    "sourceCode": "UVS-OBR200",
    "models": {
-    "IRT-OBR200M-2K": "UVS-OBR200M-2K",
-    "IRT-OBR200M-2KSYK": "UVS-OBR200M-2KSYK",
-    "IRT-OBR200M-4K": "UVS-OBR200M-4K",
-    "IRT-OBR200T-2K": "UVS-OBR200T-2K",
-    "IRT-OBR200T-2KSYK": "UVS-OBR200T-2KSYK",
-    "IRT-OBR200T-4K": "UVS-OBR200T-4K"
+    "IRR-OBR200M-2K": "UVS-OBR200M-2K",
+    "IRR-OBR200M-2KSYK": "UVS-OBR200M-2KSYK",
+    "IRR-OBR200M-4K": "UVS-OBR200M-4K",
+    "IRR-OBR200T-2K": "UVS-OBR200T-2K",
+    "IRR-OBR200T-2KSYK": "UVS-OBR200T-2KSYK",
+    "IRR-OBR200T-4K": "UVS-OBR200T-4K"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-OBR200.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-OBR200_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-OBR260": {
+  "IRR-OBR260": {
    "sourceCode": "UVS-OBR260",
    "models": {
-    "IRT-OBR260M-2K": "UVS-OBR260M-2K",
-    "IRT-OBR260M-2KSYK": "UVS-OBR260M-2KSYK",
-    "IRT-OBR260M-4K": "UVS-OBR260M-4K",
-    "IRT-OBR260T-2K": "UVS-OBR260T-2K",
-    "IRT-OBR260T-2KSYK": "UVS-OBR260T-2KSYK",
-    "IRT-OBR260T-4K": "UVS-OBR260T-4K"
+    "IRR-OBR260M-2K": "UVS-OBR260M-2K",
+    "IRR-OBR260M-2KSYK": "UVS-OBR260M-2KSYK",
+    "IRR-OBR260M-4K": "UVS-OBR260M-4K",
+    "IRR-OBR260T-2K": "UVS-OBR260T-2K",
+    "IRR-OBR260T-2KSYK": "UVS-OBR260T-2KSYK",
+    "IRR-OBR260T-4K": "UVS-OBR260T-4K"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-OBR260.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-OBR260_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-OCES": {
+  "IRR-OCES": {
    "sourceCode": "UVS-OCES",
    "models": {
-    "IRT-OCES": "UVS-OCES"
+    "IRR-OCES": "UVS-OCES"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-OCES.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-OCES_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-PEF-H": {
+  "IRR-PEF-H": {
    "sourceCode": "UVS-PEF-H",
    "models": {
-    "IRT-PEF-H450": "UVS-PEF-H450",
-    "IRT-PEF-H500": "UVS-PEF-H500",
-    "IRT-PEF-H560": "UVS-PEF-H560",
-    "IRT-PEF-H630": "UVS-PEF-H630",
-    "IRT-PEF-H710": "UVS-PEF-H710",
-    "IRT-PEF-H800": "UVS-PEF-H800"
+    "IRR-PEF-H450": "UVS-PEF-H450",
+    "IRR-PEF-H500": "UVS-PEF-H500",
+    "IRR-PEF-H560": "UVS-PEF-H560",
+    "IRR-PEF-H630": "UVS-PEF-H630",
+    "IRR-PEF-H710": "UVS-PEF-H710",
+    "IRR-PEF-H800": "UVS-PEF-H800"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-PEF-H.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-PEF-H_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-PF": {
+  "IRR-PF": {
    "sourceCode": "UVS-PF",
    "models": {
-    "IRT-PF 355A": "UVS-PF 355A",
-    "IRT-PF 355B": "UVS-PF 355B",
-    "IRT-PF 400": "UVS-PF 400",
-    "IRT-PF 450A": "UVS-PF 450A",
-    "IRT-PF 450B": "UVS-PF 450B",
-    "IRT-PF 500": "UVS-PF 500",
-    "IRT-PF 560A": "UVS-PF 560A",
-    "IRT-PF 560B": "UVS-PF 560B",
-    "IRT-PF 630": "UVS-PF 630",
-    "IRT-PF 710A": "UVS-PF 710A",
-    "IRT-PF 710B": "UVS-PF 710B",
-    "IRT-PF 800A": "UVS-PF 800A",
-    "IRT-PF 800B": "UVS-PF 800B",
-    "IRT-PF 900A": "UVS-PF 900A",
-    "IRT-PF 900B": "UVS-PF 900B"
+    "IRR-PF 355A": "UVS-PF 355A",
+    "IRR-PF 355B": "UVS-PF 355B",
+    "IRR-PF 400": "UVS-PF 400",
+    "IRR-PF 450A": "UVS-PF 450A",
+    "IRR-PF 450B": "UVS-PF 450B",
+    "IRR-PF 500": "UVS-PF 500",
+    "IRR-PF 560A": "UVS-PF 560A",
+    "IRR-PF 560B": "UVS-PF 560B",
+    "IRR-PF 630": "UVS-PF 630",
+    "IRR-PF 710A": "UVS-PF 710A",
+    "IRR-PF 710B": "UVS-PF 710B",
+    "IRR-PF 800A": "UVS-PF 800A",
+    "IRR-PF 800B": "UVS-PF 800B",
+    "IRR-PF 900A": "UVS-PF 900A",
+    "IRR-PF 900B": "UVS-PF 900B"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-PF.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-PF_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-PY": {
+  "IRR-PY": {
    "sourceCode": "UVS-PY",
    "models": {
-    "IRT-PY 400": "UVS-PY 400",
-    "IRT-PY 450": "UVS-PY 450",
-    "IRT-PY 500": "UVS-PY 500",
-    "IRT-PY 560": "UVS-PY 560"
+    "IRR-PY 400": "UVS-PY 400",
+    "IRR-PY 450": "UVS-PY 450",
+    "IRR-PY 500": "UVS-PY 500",
+    "IRR-PY 560": "UVS-PY 560"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-PY.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-PY_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-R": {
+  "IRR-R": {
    "sourceCode": "UVS-R",
    "models": {
-    "IRT-R1": "UVS-R1",
-    "IRT-R10": "UVS-R10",
-    "IRT-R2": "UVS-R2",
-    "IRT-R3": "UVS-R3",
-    "IRT-R4": "UVS-R4",
-    "IRT-R5": "UVS-R5",
-    "IRT-R6": "UVS-R6",
-    "IRT-R7": "UVS-R7",
-    "IRT-R8": "UVS-R8",
-    "IRT-R9": "UVS-R9"
+    "IRR-R1": "UVS-R1",
+    "IRR-R10": "UVS-R10",
+    "IRR-R2": "UVS-R2",
+    "IRR-R3": "UVS-R3",
+    "IRR-R4": "UVS-R4",
+    "IRR-R5": "UVS-R5",
+    "IRR-R6": "UVS-R6",
+    "IRR-R7": "UVS-R7",
+    "IRR-R8": "UVS-R8",
+    "IRR-R9": "UVS-R9"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-R.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-R_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-RF": {
+  "IRR-RF": {
    "sourceCode": "UVS-RF",
    "models": {
-    "IRT-RF 250": "UVS-RF 250",
-    "IRT-RF 280": "UVS-RF 280",
-    "IRT-RF 355": "UVS-RF 355",
-    "IRT-RF 400": "UVS-RF 400",
-    "IRT-RF 450": "UVS-RF 450",
-    "IRT-RF 500": "UVS-RF 500",
-    "IRT-RF 560": "UVS-RF 560"
+    "IRR-RF 250": "UVS-RF 250",
+    "IRR-RF 280": "UVS-RF 280",
+    "IRR-RF 355": "UVS-RF 355",
+    "IRR-RF 400": "UVS-RF 400",
+    "IRR-RF 450": "UVS-RF 450",
+    "IRR-RF 500": "UVS-RF 500",
+    "IRR-RF 560": "UVS-RF 560"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-RF.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-RF_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-SKA": {
+  "IRR-SKA": {
    "sourceCode": "UVS-SKA",
    "models": {
-    "IRT-SKA 200": "UVS-SKA 200",
-    "IRT-SKA 250": "UVS-SKA 250",
-    "IRT-SKA 300": "UVS-SKA 300",
-    "IRT-SKA 350": "UVS-SKA 350"
+    "IRR-SKA 200": "UVS-SKA 200",
+    "IRR-SKA 250": "UVS-SKA 250",
+    "IRR-SKA 300": "UVS-SKA 300",
+    "IRR-SKA 350": "UVS-SKA 350"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-SKA.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-SKA_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-SM-ST": {
+  "IRR-SM-ST": {
    "sourceCode": "UVS-SM-ST",
    "models": {
-    "IRT-SM 300": "UVS-SM 300",
-    "IRT-SM 350": "UVS-SM 350",
-    "IRT-SM 400": "UVS-SM 400",
-    "IRT-SM 500": "UVS-SM 500",
-    "IRT-SM 600": "UVS-SM 600",
-    "IRT-ST 300": "UVS-ST 300",
-    "IRT-ST 350": "UVS-ST 350",
-    "IRT-ST 400": "UVS-ST 400",
-    "IRT-ST 500": "UVS-ST 500",
-    "IRT-ST 600": "UVS-ST 600"
+    "IRR-SM 300": "UVS-SM 300",
+    "IRR-SM 350": "UVS-SM 350",
+    "IRR-SM 400": "UVS-SM 400",
+    "IRR-SM 500": "UVS-SM 500",
+    "IRR-SM 600": "UVS-SM 600",
+    "IRR-ST 300": "UVS-ST 300",
+    "IRR-ST 350": "UVS-ST 350",
+    "IRR-ST 400": "UVS-ST 400",
+    "IRR-ST 500": "UVS-ST 500",
+    "IRR-ST 600": "UVS-ST 600"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-SM-ST.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-SM-ST_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-T": {
+  "IRR-T": {
    "sourceCode": "UVS-T",
    "models": {
-    "IRT-T2": "UVS-T2",
-    "IRT-T4": "UVS-T4",
-    "IRT-T6": "UVS-T6"
+    "IRR-T2": "UVS-T2",
+    "IRR-T4": "UVS-T4",
+    "IRR-T6": "UVS-T6"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-T.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-T_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-TR": {
+  "IRR-TR": {
    "sourceCode": "UVS-TR",
    "models": {
-    "IRT-TR10": "UVS-TR10",
-    "IRT-TR11": "UVS-TR11",
-    "IRT-TR12": "UVS-TR12",
-    "IRT-TR5": "UVS-TR5",
-    "IRT-TR6": "UVS-TR6",
-    "IRT-TR7": "UVS-TR7",
-    "IRT-TR8": "UVS-TR8",
-    "IRT-TR9": "UVS-TR9"
+    "IRR-TR10": "UVS-TR10",
+    "IRR-TR11": "UVS-TR11",
+    "IRR-TR12": "UVS-TR12",
+    "IRR-TR5": "UVS-TR5",
+    "IRR-TR6": "UVS-TR6",
+    "IRR-TR7": "UVS-TR7",
+    "IRR-TR8": "UVS-TR8",
+    "IRR-TR9": "UVS-TR9"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-TR.pdf",
@@ -849,81 +848,81 @@
     "assets/catalog/files/manual/UVENTS_UVS-TR_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-UFU": {
+  "IRR-UFU": {
    "sourceCode": "UVS-UFU",
    "models": {
-    "IRT-UFU 50-35": "UVS-UFU 50-35",
-    "IRT-UFU 80-40": "UVS-UFU 80-40",
-    "IRT-UFU 90-45": "UVS-UFU 90-45"
+    "IRR-UFU 50-35": "UVS-UFU 50-35",
+    "IRR-UFU 80-40": "UVS-UFU 80-40",
+    "IRR-UFU 90-45": "UVS-UFU 90-45"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-UFU.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-UFU_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-UJET-A": {
+  "IRR-UJET-A": {
    "sourceCode": "UVS-UJET-A",
    "models": {
-    "IRT-UJET-A-315": "UVS-UJET-A-315",
-    "IRT-UJET-A-355": "UVS-UJET-A-355",
-    "IRT-UJET-A-400": "UVS-UJET-A-400",
-    "IRT-UJET-A-450": "UVS-UJET-A-450",
-    "IRT-UJET-A-500": "UVS-UJET-A-500"
+    "IRR-UJET-A-315": "UVS-UJET-A-315",
+    "IRR-UJET-A-355": "UVS-UJET-A-355",
+    "IRR-UJET-A-400": "UVS-UJET-A-400",
+    "IRR-UJET-A-450": "UVS-UJET-A-450",
+    "IRR-UJET-A-500": "UVS-UJET-A-500"
    },
    "files": [
     "assets/catalog/files/manual/UVENTS_UVS-UJET-A_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-UJET-R": {
+  "IRR-UJET-R": {
    "sourceCode": "UVS-UJET-R",
    "models": {
-    "IRT-UJET-R 50": "UVS-UJET-R 50",
-    "IRT-UJET-R 70": "UVS-UJET-R 70"
+    "IRR-UJET-R 50": "UVS-UJET-R 50",
+    "IRR-UJET-R 70": "UVS-UJET-R 70"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-UJET-R.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-UJET-R_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-USVU": {
+  "IRR-USVU": {
    "sourceCode": "UVS-USVU",
    "models": {
-    "IRT-USVU 50-35": "UVS-USVU 50-35",
-    "IRT-USVU 80-40": "UVS-USVU 80-40",
-    "IRT-USVU 90-45": "UVS-USVU 90-45"
+    "IRR-USVU 50-35": "UVS-USVU 50-35",
+    "IRR-USVU 80-40": "UVS-USVU 80-40",
+    "IRR-USVU 90-45": "UVS-USVU 90-45"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-USVU.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-USVU_Installation_Operation_Maintenance_Manual_EN_Rev01.pdf"
    ]
   },
-  "IRT-UVX": {
+  "IRR-UVX": {
    "sourceCode": "UVS-UVX",
    "models": {
-    "IRT-UVX 100": "UVS-UVX 100",
-    "IRT-UVX 125": "UVS-UVX 125",
-    "IRT-UVX 150": "UVS-UVX 150",
-    "IRT-UVX 160": "UVS-UVX 160",
-    "IRT-UVX 200": "UVS-UVX 200",
-    "IRT-UVX 250": "UVS-UVX 250",
-    "IRT-UVX 315": "UVS-UVX 315"
+    "IRR-UVX 100": "UVS-UVX 100",
+    "IRR-UVX 125": "UVS-UVX 125",
+    "IRR-UVX 150": "UVS-UVX 150",
+    "IRR-UVX 160": "UVS-UVX 160",
+    "IRR-UVX 200": "UVS-UVX 200",
+    "IRR-UVX 250": "UVS-UVX 250",
+    "IRR-UVX 315": "UVS-UVX 315"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-UVX.pdf",
     "assets/catalog/files/manual/UVENTS_UVS-UVX_Installation_Operation_Maintenance_Manual_EN_Rev02.pdf"
    ]
   },
-  "IRT-Y": {
+  "IRR-IY": {
    "sourceCode": "UVS-Y",
    "models": {
-    "IRT-Y10": "UVS-Y10",
-    "IRT-Y15": "UVS-Y15",
-    "IRT-Y20": "UVS-Y20",
-    "IRT-Y25": "UVS-Y25",
-    "IRT-Y30": "UVS-Y30",
-    "IRT-Y40": "UVS-Y40",
-    "IRT-Y50": "UVS-Y50",
-    "IRT-Y60": "UVS-Y60"
+    "IRR-IY10": "UVS-Y10",
+    "IRR-IY15": "UVS-Y15",
+    "IRR-IY20": "UVS-Y20",
+    "IRR-IY25": "UVS-Y25",
+    "IRR-IY30": "UVS-Y30",
+    "IRR-IY40": "UVS-Y40",
+    "IRR-IY50": "UVS-Y50",
+    "IRR-IY60": "UVS-Y60"
    },
    "files": [
     "assets/catalog/files/datasheet/UVS-Y.pdf",

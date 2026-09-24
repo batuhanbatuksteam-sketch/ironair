@@ -7,6 +7,9 @@ export const COMPANY = {
   phone: "+90 532 701 30 76",
   /** tel: bağlantılarında kullanılan sade biçim. */
   phoneRaw: "+905327013076",
+  /** Sabit hat. */
+  landline: "0216 755 83 53",
+  landlineRaw: "+902167558353",
   /** WhatsApp numarası — başında + ve boşluk olmadan. */
   whatsapp: "905327013076",
   email: "info@ironair.com.tr",

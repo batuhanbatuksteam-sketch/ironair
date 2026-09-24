@@ -3,8 +3,9 @@ import type { Category } from "./types";
 /**
  * Ürün grupları.
  *
- * Dört grup da katalog verisinden gelir; her serinin kategorisi kaynakta
- * tanımlı. Renkler marka kırmızısının ailesinden seçildi — marka kırmızısından
+ * Gruplar katalog verisinden gelir; her serinin kategorisi kaynakta
+ * tanımlı, hücreli fanlar ise `katalog-normalize.py` içinde kanal fanlarından
+ * ayrılıyor. Renkler marka kırmızısının ailesinden seçildi — marka kırmızısından
  * bordoya — böylece katalog tek tema içinde kalırken gruplar birbirinden
  * ayırt edilebiliyor. Turuncu tona hiç çıkılmıyor: ürün render'ları da
  * kırmızıya çevrildi, kartın arkasındaki ışık turuncu kalırsa görsel bütünlük
@@ -25,9 +26,18 @@ export const categories: Category[] = [
     name: "Kanal Fanları",
     short: "Kanal",
     summary:
-      "Doğrudan kanal hattının içine giren yuvarlak, dikdörtgen ve bölmeli fanlar. Mutfak egzozu, ısı geri kazanımı ve sığınak havalandırması bu grupta.",
+      "Doğrudan kanal hattının içine giren yuvarlak ve dikdörtgen fanlar. Isı geri kazanımı, sığınak havalandırması ve genel kanal egzozu bu grupta.",
     accent: "#FF3B30",
     accentLight: "#C21F16",
+  },
+  {
+    slug: "hucreli-fanlar",
+    name: "Hücreli Fanlar",
+    short: "Hücreli",
+    summary:
+      "Alüminyum profil çerçeveli, yalıtımlı kabin içindeki radyal fanlar. Ticari mutfak egzozu ve kanal hattına bağlanan sessiz egzoz üniteleri bu grupta.",
+    accent: "#F0283C",
+    accentLight: "#B5142A",
   },
   {
     slug: "aksiyel-fanlar",

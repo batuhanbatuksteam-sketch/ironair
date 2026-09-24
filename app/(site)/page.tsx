@@ -59,7 +59,7 @@ export default function Home() {
             <Figure value={String(modelCount)} unit="katalog modeli" />
             <Figure value="80.000" unit="m³/h debi" />
             <Figure value="8.000" unit="Pa basınç" />
-            <Figure value="ATEX" unit="sertifikalı" />
+            <Figure value={String(products.length)} unit="ürün serisi" />
             <Figure value="+200" unit="°C çalışma" />
             <Figure value="%85" unit="ısı geri kazanımı" />
           </dl>

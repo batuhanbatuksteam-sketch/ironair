@@ -6,7 +6,7 @@ import PageHeader from "../../components/PageHeader";
 export const metadata: Metadata = {
   title: "Belgeler ve standartlar",
   description:
-    "IRONAIR ürünlerinin üretildiği standartlar: ATEX, CE, ISO 9001, EN 12101-3, EN 1886 ve ISO 1940 balans sınıfı.",
+    "IRONAIR ürünlerinin üretildiği standartlar: CE, ISO 9001, EN 12101-3, EN 1886 ve ISO 1940 balans sınıfı.",
 };
 
 export default function CertificatesPage() {
@@ -14,7 +14,7 @@ export default function CertificatesPage() {
     <div className="mx-auto w-full max-w-[1400px] px-6 pb-24 pt-28 sm:px-10 lg:px-14">
       <PageHeader
         baslik="Belgeler ve standartlar"
-        aciklama="Bir fanın hangi standarda göre üretildiği, patlayıcı ortamda güvenli olup olmadığını ve yangında ne kadar dayanacağını belirler."
+        aciklama="Bir fanın hangi standarda göre üretildiği, ne kadar sessiz ve dengeli çalışacağını ve yangında ne kadar dayanacağını belirler."
       />
 
       <ul className="mt-16 grid gap-3 md:grid-cols-2">
@@ -58,13 +58,6 @@ export default function CertificatesPage() {
           <div>
             <h2 className="h3 border-b pb-3">Sık karıştırılanlar</h2>
             <dl className="mt-1 text-sm">
-              <div className="border-b py-4">
-                <dt className="font-medium">ATEX ile exproof aynı şey mi?</dt>
-                <dd className="mt-1.5 text-ink-muted">
-                  Exproof ekipmanın özelliği, ATEX ise bunu belgeleyen yönetmeliktir.
-                  Sertifikasız &quot;exproof&quot; ibaresi tek başına bir şey ifade etmez.
-                </dd>
-              </div>
               <div className="border-b py-4">
                 <dt className="font-medium">F300 ne demek?</dt>
                 <dd className="mt-1.5 text-ink-muted">

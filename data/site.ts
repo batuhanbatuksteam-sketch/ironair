@@ -39,7 +39,7 @@ export const uygulamalar: Uygulama[] = [
       "Davlumbaz üzerinden çekilen yağlı ve sıcak havanın kanalı tıkamadan çatıya taşınması gerekir.",
     sorun:
       "Yağ kanalda birikip yangın riski yaratır; yetersiz emiş kokuyu salona taşır.",
-    gruplar: ["kanal-fanlari", "cati-fanlari", "radyal-fanlar"],
+    gruplar: ["hucreli-fanlar", "cati-fanlari", "kanal-fanlari"],
     degerler: [
       { etiket: "Davlumbaz emiş hızı", deger: "0,25 – 0,5 m/s" },
       { etiket: "Tipik debi", deger: "3.000 – 20.000 m³/h" },
@@ -64,14 +64,13 @@ export const uygulamalar: Uygulama[] = [
     slug: "kimya-ve-boyahane",
     ad: "Kimya tesisi ve boyahane",
     ozet:
-      "Patlayıcı gaz ve korozif buharın bulunduğu hatlarda ATEX sertifikalı, kıvılcım çıkarmaz ekipman zorunludur.",
+      "Solvent ve korozif buharın bulunduğu hatlarda gövde ve çark malzemesi ortama göre seçilmelidir.",
     sorun:
       "Solvent buharı patlama sınırına ulaşabilir; asit buharı standart sacı birkaç ayda delip geçer.",
     gruplar: ["aksiyel-fanlar", "radyal-fanlar"],
     degerler: [
-      { etiket: "Bölge sınıfı", deger: "Zone 1/21 veya 2/22" },
       { etiket: "Gövde", deger: "Polipropilen veya paslanmaz" },
-      { etiket: "Sertifika", deger: "ATEX 2014/34/EU" },
+      { etiket: "Yüzey işlemi", deger: "Elektrostatik toz boya veya kaplama" },
     ],
   },
   {
@@ -81,7 +80,7 @@ export const uygulamalar: Uygulama[] = [
       "Basınç kademeleri ve HEPA filtreleme ile temiz alanların kirli alanlardan ayrılması.",
     sorun:
       "Ameliyathane pozitif, izolasyon odası negatif basınçta kalmalı; hava akışının yönü hiç şaşmamalı.",
-    gruplar: ["kanal-fanlari"],
+    gruplar: ["kanal-fanlari", "hucreli-fanlar"],
     degerler: [
       { etiket: "Filtre sınıfı", deger: "F9 + H13 HEPA" },
       { etiket: "Basınç farkı", deger: "±15 Pa" },
@@ -153,7 +152,7 @@ export type Referans = {
 export const referanslar: Referans[] = [
   { ad: "Organize Sanayi Dökümhanesi", sektor: "Metal", sehir: "Kocaeli", yil: "2025", is: "Ocak üstü toz toplama ve çatı egzozu", olcu: "62.000 m³/h" },
   { ad: "Zincir Otel Mutfak Grubu", sektor: "Turizm", sehir: "Antalya", yil: "2025", is: "Filtreli mutfak egzozu ve taze hava santrali", olcu: "18 ünite" },
-  { ad: "Boya ve Kaplama Tesisi", sektor: "Kimya", sehir: "Bursa", yil: "2024", is: "ATEX exproof emiş hattı, Zone 1", olcu: "Zone 1/21" },
+  { ad: "Boya ve Kaplama Tesisi", sektor: "Kimya", sehir: "Bursa", yil: "2024", is: "Boya kabini ve solvent buharı emiş hattı", olcu: "14 ünite" },
   { ad: "Lojistik Deposu", sektor: "Depolama", sehir: "İstanbul", yil: "2024", is: "Çatı aspiratörleri ve doğal baca", olcu: "45.000 m³/h" },
   { ad: "Kapalı Otopark Projesi", sektor: "Yapı", sehir: "Ankara", yil: "2024", is: "CO sensörlü jet fan ve egzoz sistemi", olcu: "3 kat / 480 araç" },
   { ad: "Un Fabrikası", sektor: "Gıda", sehir: "Konya", yil: "2023", is: "Pnömatik taşıma ve toz toplama fanları", olcu: "6.400 Pa" },
@@ -172,13 +171,6 @@ export type Belge = {
 };
 
 export const belgeler: Belge[] = [
-  {
-    kod: "ATEX",
-    ad: "ATEX 2014/34/EU",
-    aciklama:
-      "Patlayıcı ortamlarda kullanılan ekipman yönetmeliği. Exproof serilerimiz bu kapsamda belgelendirilir.",
-    kapsam: "Exproof fan grubu — Zone 1/21 ve Zone 2/22",
-  },
   {
     kod: "CE",
     ad: "CE uygunluk beyanı",
@@ -244,7 +236,7 @@ export const sss: SSS[] = [
   {
     soru: "Teslim süresi ne kadar?",
     cevap:
-      "Standart kademelerde genellikle 5 – 15 iş günü. Özel ölçü, ATEX sertifikalı ve paslanmaz gövdeli üretimlerde süre projeye göre belirlenir ve teklifte yazılı olarak verilir.",
+      "Standart kademelerde genellikle 5 – 15 iş günü. Özel ölçü ve paslanmaz gövdeli üretimlerde süre projeye göre belirlenir ve teklifte yazılı olarak verilir.",
   },
   {
     soru: "Fan çok ses yapıyor, ne yapabilirim?",
@@ -304,7 +296,7 @@ export const nedenler = [
   {
     baslik: "Sertifikalı üretim",
     metin:
-      "ATEX, CE ve EN 12101-3 kapsamındaki seriler belgeli üretilir; balans sınıfı her çarkta kayıt altındadır.",
+      "CE ve EN 12101-3 kapsamındaki seriler belgeli üretilir; balans sınıfı her çarkta kayıt altındadır.",
   },
   {
     baslik: "Satış sonrası",

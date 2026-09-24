@@ -7,7 +7,7 @@ import ProductCard from "../../components/ProductCard";
 export const metadata: Metadata = {
   title: "Ürünler",
   description:
-    "IRONAIR endüstriyel fan kataloğu: aksiyel aspiratör, radyal fan, sanayi tipi radyal fan, çatı fanı, kanal tipi fan, ATEX exproof fan ve hücreli fan sistemleri.",
+    "IRONAIR endüstriyel fan kataloğu: aksiyel aspiratör, radyal fan, sanayi tipi radyal fan, çatı fanı, kanal tipi fan ve hücreli fan sistemleri.",
 };
 
 export default function ProductsPage() {

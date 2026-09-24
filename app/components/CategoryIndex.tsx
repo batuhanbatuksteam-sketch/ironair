@@ -17,6 +17,9 @@ export default function CategoryIndex() {
         const items = productsByCategory(c.slug);
         const lead = items[0];
         const genis = i === 0;
+        // Aynı adı taşıyan seriler (ör. iki "Mutfak egzoz fanı") tek etiket olur.
+        const adlar = [...new Set(items.map((p) => p.name))];
+        const etiketler = adlar.slice(0, genis ? 3 : 2);
 
         return (
           <li key={c.slug} className={genis ? "md:col-span-2" : undefined}>
@@ -36,7 +39,7 @@ export default function CategoryIndex() {
               {lead && (
                 <span
                   className={`pointer-events-none absolute bottom-4 right-4 block ${
-                    genis ? "h-[72%] w-[36%]" : "h-[48%] w-[52%]"
+                    genis ? "h-[72%] w-[36%]" : "h-[46%] w-[42%]"
                   }`}
                 >
                   <Image
@@ -72,7 +75,7 @@ export default function CategoryIndex() {
 
               <span
                 className={`relative mt-4 block text-sm text-ink-muted ${
-                  genis ? "max-w-[52%]" : "max-w-[62%]"
+                  genis ? "max-w-[52%]" : "max-w-[54%]"
                 }`}
               >
                 {c.summary}
@@ -82,20 +85,20 @@ export default function CategoryIndex() {
                   Genişlik görselin alanına girmeyecek şekilde sınırlı. */}
               <span
                 className={`relative mt-auto flex flex-wrap gap-1.5 pt-6 ${
-                  genis ? "max-w-[58%]" : "max-w-[64%]"
+                  genis ? "max-w-[58%]" : "max-w-[54%]"
                 }`}
               >
-                {items.slice(0, genis ? 3 : 2).map((p) => (
+                {etiketler.map((ad) => (
                   <span
-                    key={p.slug}
+                    key={ad}
                     className="truncate rounded-[2px] border px-2 py-0.5 text-xs text-ink-faint"
                   >
-                    {p.name}
+                    {ad}
                   </span>
                 ))}
-                {items.length > (genis ? 3 : 2) && (
+                {adlar.length > etiketler.length && (
                   <span className="tabular px-1 py-0.5 text-xs text-ink-faint">
-                    +{items.length - (genis ? 3 : 2)}
+                    +{adlar.length - etiketler.length}
                   </span>
                 )}
               </span>

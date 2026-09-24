@@ -16,7 +16,7 @@ export default function ReferencesPage() {
     <div className="mx-auto w-full max-w-[1400px] px-6 pb-24 pt-28 sm:px-10 lg:px-14">
       <PageHeader
         baslik="Referanslar"
-        aciklama="Her proje kendi sorunuyla geldi: biri ocak üstündeki ısıyı, biri kanaldaki yağı, biri patlayıcı solvent buharını çözmek zorundaydı."
+        aciklama="Her proje kendi sorunuyla geldi: biri ocak üstündeki ısıyı, biri kanaldaki yağı, biri boyahanedeki solvent buharını çözmek zorundaydı."
       />
 
       <dl className="mt-14 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-4">

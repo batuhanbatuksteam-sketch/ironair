@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     template: "%s — IRONAIR",
   },
   description:
-    "Aksiyel aspiratör, radyal fan, çatı fanı, kanal tipi fan, ATEX exproof fan ve hücreli fan sistemleri. Ölçünüzü seçin, teklifinizi aynı gün alın.",
+    "Aksiyel aspiratör, radyal fan, çatı fanı, kanal tipi fan ve hücreli fan sistemleri. Ölçünüzü seçin, teklifinizi aynı gün alın.",
 };
 
 export const viewport: Viewport = {

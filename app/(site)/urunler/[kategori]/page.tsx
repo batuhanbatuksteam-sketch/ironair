@@ -23,12 +23,9 @@ export default async function CategoryPage({ params }: Params) {
   const category = categoryBySlug(kategori);
   if (!category) notFound();
 
-  /* Büyük debiden küçüğe: proje fanları başta, küçük boylar sonda. */
-  const items = [...productsByCategory(category.slug)].sort(
-    (a, b) =>
-      (b.ranges.find((r) => r.field === "debi")?.max ?? 0) -
-      (a.ranges.find((r) => r.field === "debi")?.max ?? 0)
-  );
+  /* Sıra katalogdan gelir: firmanın öne aldığı seriler başta, kalanlar büyük
+     debiden küçüğe (tools/katalog-normalize.py). */
+  const items = productsByCategory(category.slug);
 
   const modelToplam = items.reduce((n, p) => n + p.modelCount, 0);
 

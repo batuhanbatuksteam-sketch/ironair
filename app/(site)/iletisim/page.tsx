@@ -33,6 +33,14 @@ export default function ContactPage() {
             </dd>
           </div>
           <div className="border-t py-5">
+            <dt className="text-sm text-ink-faint">Sabit hat</dt>
+            <dd className="mt-1">
+              <a href={`tel:${COMPANY.landlineRaw}`} className="tabular font-medium hover:text-red-text">
+                {COMPANY.landline}
+              </a>
+            </dd>
+          </div>
+          <div className="border-t py-5">
             <dt className="text-sm text-ink-faint">WhatsApp</dt>
             <dd className="mt-1">
               <a

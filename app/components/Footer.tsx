@@ -12,11 +12,11 @@ export default function Footer() {
             <Wordmark />
             <p className="prose-measure mt-5 text-sm text-ink-muted">
               Endüstriyel fan ve havalandırma sistemleri üretimi. Aksiyel, radyal,
-              çatı, kanal tipi, ATEX exproof ve hücreli fan grupları.
+              çatı, kanal tipi ve hücreli fan grupları.
             </p>
             <dl className="mt-7 space-y-2 text-sm">
               <div className="flex gap-3">
-                <dt className="w-16 shrink-0 text-ink-faint">Telefon</dt>
+                <dt className="w-20 shrink-0 text-ink-faint">Telefon</dt>
                 <dd>
                   <a href={`tel:${COMPANY.phoneRaw}`} className="tabular hover:text-red-text">
                     {COMPANY.phone}
@@ -24,7 +24,15 @@ export default function Footer() {
                 </dd>
               </div>
               <div className="flex gap-3">
-                <dt className="w-16 shrink-0 text-ink-faint">E-posta</dt>
+                <dt className="w-20 shrink-0 text-ink-faint">Sabit hat</dt>
+                <dd>
+                  <a href={`tel:${COMPANY.landlineRaw}`} className="tabular hover:text-red-text">
+                    {COMPANY.landline}
+                  </a>
+                </dd>
+              </div>
+              <div className="flex gap-3">
+                <dt className="w-20 shrink-0 text-ink-faint">E-posta</dt>
                 <dd>
                   <a href={`mailto:${COMPANY.email}`} className="hover:text-red-text">
                     {COMPANY.email}
@@ -32,7 +40,7 @@ export default function Footer() {
                 </dd>
               </div>
               <div className="flex gap-3">
-                <dt className="w-16 shrink-0 text-ink-faint">Adres</dt>
+                <dt className="w-20 shrink-0 text-ink-faint">Adres</dt>
                 <dd className="text-ink-muted">{COMPANY.address}</dd>
               </div>
             </dl>

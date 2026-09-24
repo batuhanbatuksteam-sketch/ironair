@@ -45,7 +45,17 @@ def slugla(s: str) -> str:
 
 
 def ironair_kod(k: str) -> str:
-    return "IRT-" + k.split("-", 1)[1] if k.startswith("UVS-") else k
+    return _normalize().IRONAIR_KOD(k)
+
+
+def _normalize():
+    """Kod ve slug kuralları tek yerde: katalog-normalize.py."""
+    import importlib.util, pathlib
+    yol = pathlib.Path(__file__).with_name("katalog-normalize.py")
+    spec = importlib.util.spec_from_file_location("katalog_normalize", yol)
+    modul = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(modul)
+    return modul
 
 
 def hsv(a):

@@ -6,7 +6,7 @@ import { modelCount, products } from "@/data/products";
 export const metadata: Metadata = {
   title: "Hakkımızda",
   description:
-    "IRONAIR endüstriyel fan ve havalandırma sistemleri üretir. Aksiyel, radyal, çatı, kanal tipi, ATEX exproof ve hücreli fan grupları.",
+    "IRONAIR endüstriyel fan ve havalandırma sistemleri üretir. Aksiyel, radyal, çatı, kanal tipi ve hücreli fan grupları.",
 };
 
 export default function AboutPage() {
@@ -22,7 +22,7 @@ export default function AboutPage() {
             ekipmanı üretir. Katalogda {products.length} seri ve {modelCount} model{" "}
             {categories.length} grupta toplanmıştır: havayı pervane ekseninde iten
             aksiyel fanlardan, kanal direncini yenen radyal fanlara; çatı
-            aspiratörlerinden ATEX sertifikalı exproof serilere kadar.
+            aspiratörlerinden hücreli fan ünitelerine kadar.
           </p>
           <p>
             Ürünlerin çoğu stoktan değil, projenin debi ve basınç ihtiyacına göre

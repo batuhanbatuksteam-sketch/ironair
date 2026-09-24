@@ -17,12 +17,12 @@ const CACHE = path.join(KOK, "tools/.cache/studyo");
 
 /** Yazısı bozuk ya da okunamayacak kadar belirsiz olanlar → yazı silinir. */
 const YAZI_SIL = [
-  "irt-al-k", "irt-ba", "irt-dka", "irt-dmk", "irt-igk",
-  "irt-k", "irt-ko-h", "irt-t", "irt-ska", "irt-a", "irt-al",
+  "irr-al-k", "irr-ba", "irr-dka", "irr-dmk", "irr-igk",
+  "irr-k", "irr-ko-h", "irr-t", "irr-ska", "irr-a", "irr-al",
 ];
 
 /** Yazısı doğru ama üzerinde etiket kalıntısı olanlar → yazı korunur. */
-const ETIKET_SIL = ["irt-fgm80", "irt-h", "irt-uvx", "irt-ujet-r"];
+const ETIKET_SIL = ["irr-fgm80", "irr-h", "irr-uvx", "irr-ujet-r"];
 
 const P_YAZI =
   "Remove ALL text, lettering, words and logos from the product's surfaces. Every painted or printed " +
